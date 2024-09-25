@@ -1,15 +1,26 @@
 <template>
-  <p class="body-text" v-for="item in store.news" :key="item.article_id">
-      Country {{ item.title}} 
-  </p> 
-
+<div class="article">
+  <div class="container">
+    <div class="article__wrapper">
+      <the-article 
+      v-for="item in store.news" 
+      :key="item.article_id" 
+      :id="item.article_id" 
+      :title="item.title"
+      :description="item.description"
+      />
+    </div>
+  </div>
+</div>
 </template>
 
 <script setup>
+//vue
 import { defineOptions, onMounted } from "vue";
-
+//pinia
 import { useNewsStore } from "@/stores/news";
-
+//import components
+import TheArticle from "@/components/sections/TheArticle.vue";
 
 
 defineOptions({
@@ -25,4 +36,8 @@ onMounted(() => {
 });
 </script>
 
- 
+
+<style lang="sass">
+
+
+</style>
