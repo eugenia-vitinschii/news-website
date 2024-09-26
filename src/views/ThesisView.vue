@@ -2,9 +2,12 @@
   <div class="thesis">
     <div class="container">
       <div class="thesis__wrapper">
-        <the-thesis :id="news.id" :title="news.title" />
+        <div class="body-text"> Route params: {{ $route.params.id }}  </div>
+        <the-thesis 
+          :id="news.article_id"
+          :title="news.title"
+         />
       </div>
-      <p class="body-text">{{ news }}</p>
     </div>
   </div>
 </template>
@@ -25,15 +28,20 @@ defineOptions({
   name: "ThesisView",
 });
 
-const store = useNewsStore();
-const route = useRoute();
-const id = route.params.id;
+const store = useNewsStore()
+const route = useRoute()
+const id = route.params.id
 const { news } = storeToRefs(store);
 const { fetchNewsById } = store;
+
+
 
 onMounted(() => {
   fetchNewsById(id);
 });
+
+
+
 </script>
 
 <style>

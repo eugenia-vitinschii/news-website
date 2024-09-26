@@ -17,10 +17,10 @@ export const useNewsStore = defineStore("newsId", {
             console.log(error)
          }
       },
-      async fetchNewsById(id){
+      async fetchNewsById(payload){
       // get news from db.json by id
          try{
-            const response = await axios.get(`${baseUrl}/news/${id}`);
+            const response = await axios.get(`${baseUrl}/news/${payload}`);
             this.news = response.data;
             console.log('get product by id')
          } catch(error) {

@@ -8,6 +8,10 @@
       :id="item.article_id" 
       :title="item.title"
       :description="item.description"
+      :source_icon="item.source_icon"
+      :ai_tag="item.ai_tag"
+      :keywords="item.keywords"
+      :img="item.image_url"
       />
     </div>
   </div>
@@ -16,7 +20,7 @@
 
 <script setup>
 //vue
-import { defineOptions, onMounted } from "vue";
+import { defineOptions, onMounted, ref } from "vue";
 //pinia
 import { useNewsStore } from "@/stores/news";
 //import components
@@ -29,6 +33,8 @@ defineOptions({
 
 const store = useNewsStore();
 const { fetchNews } = store;
+
+
 
 //get news
 onMounted(() => {

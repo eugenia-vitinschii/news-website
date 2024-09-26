@@ -1,7 +1,7 @@
 {
   "news": [
     {
-      "article_id": "efb99cb30b4bdc19eadbd7737dcb8977",
+      "article_id": "someid",
       "title": "4 Bedroom Home in CHARLOTTESVILLE - $575,000",
       "link": "https://dailyprogress.com/online/4-bedroom-home-in-charlottesville---575-000/article_265873c2-a714-50c2-95d2-824aae27e73d.html",
       "keywords": null,
@@ -23,30 +23,6 @@
       "ai_org": "ngic",
       "sentiment": "positive",
       "sentiment_stats": "positive:97.76,neutral:1.83,negative:0.41"
-    },
-    {
-      "article_id": "536e9779d37385f3469be849418e638d",
-      "title": "3 Bedroom Home in Lincoln - $689,000",
-      "link": "https://journalstar.com/online/3-bedroom-home-in-lincoln---689-000/article_04352210-2c49-5397-a3c3-f8402f07510d.html",
-      "keywords": null,
-      "creator": null,
-      "video_url": null,
-      "description": "Experience exquisite lakeside living at your Capitol Beach sanctuary! This impeccable 3-bed, 2-bath home features numerous top-shelf upgrades and was completely renovated in 2012. Discover a spacious and inviting layout, perfect for entertaining or simply relaxing by the water's edge....",
-      "content": "Experience exquisite lakeside living at your Capitol Beach sanctuary! This impeccable 3-bed, 2-bath home features numerous top-shelf upgrades and was completely renovated in 2012. Discover a spacious and inviting layout, perfect for entertaining or simply relaxing by the water's edge. The interior boasts exposed beams and vaulted ceilings throughout, enhancing the spacious and airy feel. The state-of-the-art kitchen is equipped with premium features including a 5' refrigerator/freezer, raised dishwasher, warming oven, and induction stovetop, complete with matching Royal Queen cookware. Imagine summer evenings on the expansive stamped concrete patio, soaking in spectacular views of the sunrise, boaters, and the dazzling fireworks display. Enjoy 80 ft of pristine waterfront, complete with your own private dock boasting two boat slips and a Shore Master boat lift. This is your opportunity to own a luxurious lakefront haven where every detail exudes comfort and elegance. View More Get local news delivered to your inbox!",
-      "pubDate": "2024-06-21 05:30:00",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/journalstar.com/content/tncms/assets/v3/editorial/8/74/8743f349-83fd-57b5-8440-7643af3548eb/66750cc07acc5.image.jpg?resize=300%2C200",
-      "source_id": "journalstar",
-      "source_priority": 8804,
-      "source_url": "https://journalstar.com",
-      "source_icon": "https://i.bytvi.com/domain_icons/journalstar.jpg",
-      "language": "english",
-      "country": "united states of america",
-      "category": "top",
-      "ai_tag": "home and interior design",
-      "ai_region": "lincoln,montana,united states of america,north america,lincoln,massachusetts,united states of america,north america,lincoln,idaho,united states of america,north america,lincoln,nebraska,united states of america,north america,lincoln,missouri,united states of america,north america,lincoln,pennsylvania,united states of america,north america,lincoln,alabama,united states of america,north america,lincoln,vermont,united states of america,north america,lincoln,rhode island,united states of america,north america,lincoln,north dakota,united states of america,north america,lincoln,arkansas,united states of america,north america,lincoln,california,united states of america,north america,lincoln,illinois,united states of america,north america,lincoln,maine,united states of america,north america,lincoln,kansas,united states of america,north america",
-      "ai_org": null,
-      "sentiment": "positive",
-      "sentiment_stats": "positive:99.39,neutral:0.31,negative:0.3"
     },
     {
       "article_id": "fe3316ed9a64efd0ec537c9c459f51c0",
