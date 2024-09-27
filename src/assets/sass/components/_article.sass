@@ -1,21 +1,40 @@
 .article
    &__wrapper
-      display: grid
-      grid-template-columns: 1fr 6fr 2fr
-      grid-template-areas: "b b a" "b b c" "b b c"
+   &__title
+      border-top: 1px solid green
+      p
+      color: green
+      text-transform: uppercase
+   &__items
    &__item
+      display: flex
+      flex-direction: column
       padding: 50px 10px 10px 10px
       margin: 5px
+   &__content
+      flex: 1 0 auto
    &__text
+   &__description
+      flex: 0 0 auto 
    &__media
    &__media--icon
       width: 20px
       img
          width: 100%
    &__img
+
       min-width: 100%
       img
          width: 100%
 
-.red
-   color: red
+.article--a
+   display: grid
+   grid-template-columns: 1fr 5fr 2fr
+
+.article--b
+   display: grid
+   grid-template-columns: repeat(2, 1fr)
+
+.article--c
+   display: grid
+   grid-template-columns: repeat(4, 1fr)

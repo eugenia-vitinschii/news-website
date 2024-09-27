@@ -1,23 +1,34 @@
 <template>
   <div class="article__item">
-    <div class="article__text">
-      <router-link :to="'/thesis/' + id">
-        <p class="subheading bold">{{ title }}</p>
-      </router-link>
-      <p class="body-text">{{ description }}</p>
-    </div>
-    <div class="article__media">
-      <div class="article__media--icon">
-        <img :src="source_icon" alt="source icon" />
+    <div class="article__content">
+      <div class="article__title">
+        <p class="body-text">
+          {{ articleHeader }}
+        </p>
       </div>
-      <div class="article__media--tag">
-         <p class="body-text">tags: {{ ai_tag }}</p>
-         <p class="body-text">{{ keywords}}</p>
+      <div class="article__text">
+        <router-link :to="'/thesis/' + id">
+          <p class="subheading bold">{{ title }}</p>
+        </router-link>
+        <p class="body-text">{{ description }}</p>
       </div>
+
     </div>
-    <div class="article__img">
-      <img :src="img" alt="">
+<div class="article__description">
+  <div class="article__media">
+        <div class="article__media--icon">
+          <img :src="source_icon" alt="source icon" />
+        </div>
+      </div>
+  <div class="article__media--tag">
+          <p class="body-text">tags: {{ ai_tag }}</p>
+          <p class="body-text">{{ keywords }}</p>
+        </div>
+  <div class="article__img">
+      <img :src="img" alt="" />
     </div>
+</div>
+    
   </div>
 </template>
 
@@ -50,9 +61,12 @@ defineProps({
   img: {
     type: String,
   },
-  top:{
-    type: Boolean
-  }
+  top: {
+    type: Boolean,
+  },
+  articleHeader: {
+    type: String,
+  },
 });
 </script>
 
