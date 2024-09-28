@@ -1,6 +1,8 @@
 <template>
+  <!-- article item (center) -->
   <div class="article__item">
     <div class="article__content">
+      <!-- aricle content -->
       <div class="article__title">
         <p class="body-text">
           {{ articleHeader }}
@@ -12,23 +14,22 @@
         </router-link>
         <p class="body-text">{{ description }}</p>
       </div>
-
     </div>
-<div class="article__description">
-  <div class="article__media">
+    <!-- article description -->
+    <div class="article__description">
+      <div class="article__media">
         <div class="article__media--icon">
           <img :src="source_icon" alt="source icon" />
         </div>
       </div>
-  <div class="article__media--tag">
-          <p class="body-text">tags: {{ ai_tag }}</p>
-          <p class="body-text">{{ keywords }}</p>
-        </div>
-  <div class="article__img">
-      <img :src="img" alt="" />
+      <div class="article__media--tag">
+        <p class="body-text">tags: {{ ai_tag }}</p>
+        <p class="body-text">{{ keywords }}</p>
+      </div>
+      <div class="article__img">
+        <img :src="img" alt="" />
+      </div>
     </div>
-</div>
-    
   </div>
 </template>
 

@@ -41,6 +41,7 @@ export const useNewsStore = defineStore("newsId", {
          const result = this.news.filter((item) => item.ai_tag == 'cricket')
          return result 
       },
+      
    },
    actions: {
       async fetchNews(){
@@ -49,17 +50,17 @@ export const useNewsStore = defineStore("newsId", {
             const response = await axios.get(`${baseUrl}/news`);
             this.news= response.data;
          } catch(error) {
-            console.log(error)
+            console.err(error)
          }
       },
-      async fetchNewsById(payload){
+      async fetchNewsById(id){
       // get news from db.json by id
          try{
-            const response = await axios.get(`${baseUrl}/news/${payload}`);
+            const response = await axios.get(`${baseUrl}/news/${id}`);
             this.news = response.data;
             console.log('get product by id')
          } catch(error) {
-            console.log( 'Get product error:' , error)
+            console.error( 'Get product error:' , error)
          }
       }
    }

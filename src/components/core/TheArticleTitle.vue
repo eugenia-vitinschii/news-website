@@ -1,7 +1,8 @@
 <template>
-      <div class="article__header">
-         <p class="heading red"> {{ articleHeader}}</p>
-      </div>
+  <!-- article header for article item -->
+  <div class="article__header">
+    <p class="heading ">{{ articleHeader }}</p>
+  </div>
 </template>
 
 <script setup>
