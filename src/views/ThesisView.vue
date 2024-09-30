@@ -2,10 +2,9 @@
   <div class="thesis">
     <div class="container">
       <div class="thesis__wrapper">
-        <div class="body-text"> Route params: {{ $route.params.id }}  </div>
-        <p>title {{ news.title }}</p>
+        <div class="body-text"> Route params: {{ $route.params.id }} {{ id }} </div>
         <the-thesis 
-          :id="news.article_id"
+          :id="id"
           :title="news.title"
          />
       </div>

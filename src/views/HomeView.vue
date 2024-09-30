@@ -17,7 +17,9 @@
           <!-- Celebrityy News -->
           <div class="article">
             <div class="article__wrapper">
-              <the-article-title :articleHeader="'Celebrity'" />
+              <the-article-title 
+              :view="top"
+              :articleHeader="'Celebrity 0'" />
               <div class="article__items" :class="'article--a'">
                 <the-article
                   v-for="item in store.getCelebrityyNews"

@@ -41,7 +41,11 @@ export const useNewsStore = defineStore("newsId", {
          const result = this.news.filter((item) => item.ai_tag == 'cricket')
          return result 
       },
-      
+      //entertainment
+      getEntertainmentNews(){
+         const result = this.news.filter((item) => item.ai_tag == 'entertainment')
+         return result 
+      },
    },
    actions: {
       async fetchNews(){
@@ -56,7 +60,7 @@ export const useNewsStore = defineStore("newsId", {
       async fetchNewsById(id){
       // get news from db.json by id
          try{
-            const response = await axios.get(`${baseUrl}/news/${id}`);
+            const response = await axios.get(`${baseUrl}/news/${id}`)
             this.news = response.data;
             console.log('get product by id')
          } catch(error) {

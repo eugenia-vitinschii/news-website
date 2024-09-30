@@ -1,7 +1,10 @@
 <template>
   <!-- article header for article item -->
   <div class="article__header">
-    <p class="heading ">{{ articleHeader }}</p>
+    <router-link :to="view">
+      <p class="heading ">{{ articleHeader }}</p>
+    </router-link>
+   
   </div>
 </template>
 
@@ -13,6 +16,9 @@ defineOptions({
 });
 
 defineProps({
+  view:{
+    type: String,
+  },
   articleHeader: {
     type: String,
   },

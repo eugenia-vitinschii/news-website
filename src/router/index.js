@@ -9,14 +9,39 @@ const router = createRouter({
        component: () => import('../views/HomeView.vue')
      },
      {
-      path: '/test',
-      name: 'test',
-      component: () => import('../views/TestView.vue')
+      path: '/top',
+      name: 'top',
+      component: () => import('../views/TopView.vue')
     },
     {
       path: '/thesis/:id',
       name: 'thesis',
       component: () => import('../views/ThesisView.vue')
+    },
+    {
+      path: '/celebrity',
+      name: 'celebrity',
+      component: () => import('../views/CelebrityView.vue')
+    },
+    {
+      path: '/sport',
+      name: 'sport',
+      component: () => import('../views/SportView.vue')
+    },
+    {
+      path: '/politics',
+      name: 'politics',
+      component: () => import('../views/PoliticsView.vue')
+    }, 
+    {
+      path: '/television',
+      name: 'television',
+      component: () => import('../views/TelevisionView.vue')
+    },  
+    {
+      path: '/entertainment',
+      name: 'entertainment',
+      component: () => import('../views/EntertainmentView.vue')
     },
    ]
  })
