@@ -2,9 +2,17 @@
   <div class="thesis">
     <div class="container">
       <div class="thesis__wrapper">
-        <div class="body-text"> Route params: {{ $route.params.id }} {{ id }} </div>
+        <button
+        @click="$router.go(-1)"
+        >Back</button>
+        <p class="red">ID: {{ id }}</p>
+        <p class="heading">id: {{ route.params.id }}</p>
         <the-thesis 
-          :id="id"
+          :id="news.id"
+          :title="news.title"
+         />
+        <the-thesis 
+          :id="news.article_id"
           :title="news.title"
          />
       </div>

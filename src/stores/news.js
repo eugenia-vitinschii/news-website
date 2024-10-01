@@ -62,10 +62,10 @@ export const useNewsStore = defineStore("newsId", {
          try{
             const response = await axios.get(`${baseUrl}/news/${id}`)
             this.news = response.data;
-            console.log('get product by id')
          } catch(error) {
             console.error( 'Get product error:' , error)
          }
-      }
+      },
+
    }
 })

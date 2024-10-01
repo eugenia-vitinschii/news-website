@@ -1,10 +1,6 @@
 .article
    &__wrapper
-   &__title
-      border-top: 1px solid green
-      p
-      color: green
-      text-transform: uppercase
+   &__title    
    &__items
    &__item
       display: flex
@@ -22,11 +18,12 @@
       img
          width: 100%
    &__img
-
+      filter: grayscale(1)
       min-width: 100%
       img
          width: 100%
-
+   &__img:hover
+      filter: grayscale(0)
 .article--a
    display: grid
    grid-template-columns: 1fr 5fr 2fr

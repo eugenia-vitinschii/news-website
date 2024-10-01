@@ -5,6 +5,9 @@
       <div class="news__wrapper">
         <!-- left news title list -->
         <div class="news__left">
+          <p class="colored">
+            text Example
+          </p>
           <the-small-article
             v-for="item in store.getTopCategory"
             :key="item.article_id"
@@ -18,12 +21,11 @@
           <div class="article">
             <div class="article__wrapper">
               <the-article-title 
-              :view="top"
               :articleHeader="'Celebrity 0'" />
               <div class="article__items" :class="'article--a'">
                 <the-article
                   v-for="item in store.getCelebrityyNews"
-                  :key="item.article_id"
+                  :key="item.id"
                   :articleHeader="item.category"
                   :id="item.article_id"
                   :title="item.title"
@@ -145,7 +147,3 @@ onMounted(() => {
 });
 </script>
 
-
-<style lang="sass">
-
-</style>

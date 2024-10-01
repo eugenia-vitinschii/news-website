@@ -1,6 +1,8 @@
 .heading
    @include font-style($heading, $margin-sm, left, $black)
 
+
+
 .subheading
    @include font-style($subheading, $margin-sm, left, $black)
 
@@ -10,7 +12,6 @@
 .body-text-category
    @include font-style(12px, $margin-sm, left, red)
 
-   
 @media (max-width: 767px)
    .heading
       @include font-style($heading-sm, $margin-sm, center, $black)
@@ -21,7 +22,7 @@
    .body-text
       @include font-style($body-text-sm, $margin-sm, center, $black)
 
-a 
+a
    color: $white
 
 a:hover
@@ -29,3 +30,14 @@ a:hover
 
 .bold
    font-weight: bold
+
+.red
+   color: red
+
+.colored
+   font-size: 70px
+   font-weight: 600
+   background-image: linear-gradient(to left, #553c9a, #b393d3)
+   color: transparent
+   background-clip: text
+   -webkit-background-clip: text
