@@ -12,8 +12,8 @@
         >
           <the-category
             v-for="item in store.getCelebrityyNews"
-            :key="item.article_id"
-            :id="item.article_id"
+            :key="item.id"
+            :id="item.id"
             :title="item.title"
             :img="item.image_url"
             :description="item.description"

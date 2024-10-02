@@ -7,3 +7,17 @@
 
 // style for hovered links
 
+@mixin  gradient-text($font-size,  $gradient)
+  font-size: $font-size
+  font-weight: 600
+  background: $gradient
+  color: transparent
+  background-clip: text
+  -webkit-background-clip: text
+
+
+$gradient-1: conic-gradient(from 90deg at 50% 50%, rgba(33, 150, 243, 1) 0%, rgba(0, 188, 212, 1) 40%, rgba(238, 130, 238, 1) 90%)
+
+$gradient-2: radial-gradient(ellipse at 50% 50%, rgba(33, 150, 243, 1) 0%, rgba(0, 188, 212, 1) 49%, rgba(0, 188, 212, 1) 88%, rgba(33, 150, 243, 1) 98%)
+
+$gradient-3: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%)

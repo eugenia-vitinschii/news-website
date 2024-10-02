@@ -1,7 +1,7 @@
 {
   "news": [
     {
-      "article_id": "someid",
+      "id": "someid",
       "title": "4 Bedroom Home in CHARLOTTESVILLE - $575,000",
       "link": "https://dailyprogress.com/online/4-bedroom-home-in-charlottesville---575-000/article_265873c2-a714-50c2-95d2-824aae27e73d.html",
       "keywords": null,
@@ -25,7 +25,7 @@
       "sentiment_stats": "positive:97.76,neutral:1.83,negative:0.41"
     },
     {
-      "article_id": "fe3316ed9a64efd0ec537c9c459f51c0",
+      "id": "fe3316ed9a64efd0ec537c9c459f51c0",
       "title": "4 Bedroom Home in CHARLOTTESVILLE - $2,875,000",
       "link": "https://dailyprogress.com/online/4-bedroom-home-in-charlottesville---2-875-000/article_dc226eae-ea9b-55ae-b55f-aee928b28ac6.html",
       "keywords": null,
@@ -49,7 +49,7 @@
       "sentiment_stats": "positive:99.41,neutral:0.36,negative:0.23"
     },
     {
-      "article_id": "f08b9637cd5b4f3b501eb65f4ae75abb",
+      "id": "f08b9637cd5b4f3b501eb65f4ae75abb",
       "title": "AMIRI SS25 Combines 19th Century Western Tropes Combines Western Tropes With the '70s Jazz Flair",
       "link": "https://hypebeast.com/uk/2024/6/amiri-ss25-paris-fashion-week-collection",
       "keywords": "fashion",
@@ -73,7 +73,7 @@
       "sentiment_stats": "positive:0.18,neutral:99.55,negative:0.27"
     },
     {
-      "article_id": "3d86e412dc4a2d19cebb696eb4476497",
+      "id": "3d86e412dc4a2d19cebb696eb4476497",
       "title": "Frederique Constant Readies a Duo of Highlife Chronograph Automatic Wristwatches",
       "link": "https://hypebeast.com/uk/2024/6/frederique-constant-highlife-chronograph-automatic-duo-release-info",
       "keywords": "watches",
@@ -97,7 +97,7 @@
       "sentiment_stats": "positive:46.49,neutral:52.78,negative:0.73"
     },
     {
-      "article_id": "658a67cc557395dc6bd5d34de6b9d6a6",
+      "id": "658a67cc557395dc6bd5d34de6b9d6a6",
       "title": "Rise in nighttime warming impacting sleep quality, health in India: Analysis",
       "link": "https://www.mid-day.com/lifestyle/nature-&-wildlife/article/rise-in-nighttime-warming-impacting-sleep-quality-health-in-india-analysis-23355122",
       "keywords": "lifestyle",
@@ -121,7 +121,7 @@
       "sentiment_stats": "positive:2.68,neutral:95.46,negative:1.86"
     },
     {
-      "article_id": "1b420c08ed53b901e1ae87bf2198530f",
+      "id": "1b420c08ed53b901e1ae87bf2198530f",
       "title": "Maharashtra plans high-rise prison in Mankhurd to combat overcrowding",
       "link": "https://www.mid-day.com/mumbai/mumbai-news/article/maharashtra-plans-high-rise-prison-in-mankhurd-to-combat-overcrowding-23355121",
       "keywords": "mumbai",
@@ -145,7 +145,7 @@
       "sentiment_stats": "positive:14.52,neutral:2.05,negative:83.43"
     },
     {
-      "article_id": "727ce0e888d3e4192e725c3836f9db08",
+      "id": "727ce0e888d3e4192e725c3836f9db08",
       "title": "Japan vs England: Date, kick-off time, how to watch, team news, lineups, venue, odds and h2h results",
       "link": "https://www.standard.co.uk/sport/rugby/japan-vs-england-date-kick-off-time-tv-channel-live-stream-team-news-lineups-odds-b1165519.html",
       "keywords": "rugby union,sport",
@@ -169,7 +169,7 @@
       "sentiment_stats": "positive:5.0,neutral:94.64,negative:0.36"
     },
     {
-      "article_id": "7df1363218d4cbf4bcd0170867b870c1",
+      "id": "7df1363218d4cbf4bcd0170867b870c1",
       "title": "Ariana Grande Remixes \u2018The Boy Is Mine\u2019 With R&B Greats Brandy, Monica",
       "link": "https://www.rollingstone.com/music/music-news/ariana-grande-brandy-monica-the-boy-is-mine-remix-2-1235043972/",
       "keywords": "music news,music,monica,brandy,ariana grande",
@@ -193,7 +193,7 @@
       "sentiment_stats": "positive:31.42,neutral:67.02,negative:1.57"
     },
     {
-      "article_id": "72ec3785a9c0f2edb8764b0f62ee6831",
+      "id": "72ec3785a9c0f2edb8764b0f62ee6831",
       "title": "Royal news - live: Harry and Meghan Markle \u2018reach out\u2019 to Kate Middleton as \u2018homesick\u2019 prince eyes UK home",
       "link": "https://www.independent.co.uk/news/uk/home-news/harry-meghan-kate-william-royal-family-news-b2566394.html",
       "keywords": "uk,home news",
@@ -217,7 +217,7 @@
       "sentiment_stats": "positive:0.48,neutral:99.36,negative:0.16"
     },
     {
-      "article_id": "14a984dd3f6999398af44604b76131fd",
+      "id": "14a984dd3f6999398af44604b76131fd",
       "title": "How to get bond back with end-of-lease clean: Aussie professional cleaner spots \u2018stressful\u2019 detail in every renter\u2019s home",
       "link": "https://7news.com.au/lifestyle/how-to-get-bond-back-with-end-of-lease-clean-aussie-professional-cleaner-spots-stressful-detail-in-every-renters-home-c-15096673",
       "keywords": null,
@@ -241,7 +241,7 @@
       "sentiment_stats": "positive:12.0,neutral:87.46,negative:0.54"
     },
     {
-      "article_id": "32ab932ccf5fcb7ee3b4b0a6ba510833",
+      "id": "32ab932ccf5fcb7ee3b4b0a6ba510833",
       "title": "Excise Policy Case: ED Moves Delhi High Court Against Arvind Kejriwal`s Bail",
       "link": "https://zeenews.india.com/india/excise-policy-case-ed-moves-delhi-high-court-against-arvind-kejriwals-bail-2759266.html",
       "keywords": null,
@@ -265,7 +265,7 @@
       "sentiment_stats": "positive:0.06,neutral:99.84,negative:0.1"
     },
     {
-      "article_id": "e792ceb8ab63d84476f7b62b5765b59f",
+      "id": "e792ceb8ab63d84476f7b62b5765b59f",
       "title": "Transfer news LIVE! Arsenal 'make Gyokeres breakthrough'; Chelsea in Olise swap bid; Zirkzee to Man Utd; Spurs",
       "link": "https://www.standard.co.uk/sport/football/transfer-news-live-arsenal-fc-chelsea-man-utd-tottenham-gyokeres-olise-zirkzee-b1164686.html",
       "keywords": "football,sport",
@@ -289,7 +289,7 @@
       "sentiment_stats": "positive:7.57,neutral:91.97,negative:0.46"
     },
     {
-      "article_id": "709edb6f28c45c4bff5b5496da696a1d",
+      "id": "709edb6f28c45c4bff5b5496da696a1d",
       "title": "AI Investment in India: Indian CEOs Prioritise Tech Investments, Including Towards Artificial Intelligence, Says Report",
       "link": "https://www.latestly.com/technology/ai-investment-in-india-indian-ceos-prioritise-tech-investments-including-towards-artificial-intelligence-says-report-6053534.html",
       "keywords": null,
@@ -313,7 +313,7 @@
       "sentiment_stats": "positive:0.08,neutral:99.81,negative:0.11"
     },
     {
-      "article_id": "5311b8f7cfe16849aeca497cacc7c7fb",
+      "id": "5311b8f7cfe16849aeca497cacc7c7fb",
       "title": "'Sweet Home' 2 teaser: Song Kang unleashes his fierce self for a thrilling battle in this apocalyptic horror",
       "link": "https://timesofindia.indiatimes.com/web-series/news/korean/sweet-home-2-latest-teaser-song-kang-unleashes-his-fierce-self-for-a-thrilling-battle-in-this-apocalyptic-horror/articleshow/111157180.cms",
       "keywords": null,
@@ -337,7 +337,7 @@
       "sentiment_stats": "positive:79.19,neutral:17.96,negative:2.85"
     },
     {
-      "article_id": "6fa127e3de2d38973e91cbd186e2642e",
+      "id": "6fa127e3de2d38973e91cbd186e2642e",
       "title": "Silver rate today (21st June 2024): Latest Rates in Major Indian Cities",
       "link": "https://www.businessinsider.in/finance/news/silver-rate-today-india-21st-june-mumbai-delhi-kolkata-bengaluru-chennai/articleshow/111157322.cms",
       "keywords": "finance",
@@ -361,7 +361,7 @@
       "sentiment_stats": "positive:17.41,neutral:82.03,negative:0.56"
     },
     {
-      "article_id": "ec7332ee7b85441c6632736b902c0b95",
+      "id": "ec7332ee7b85441c6632736b902c0b95",
       "title": "New Electricity Unit Price in Pakistan for Homes & Businesses Announced",
       "link": "https://enews.hamariweb.com/pakistan/new-electricity-unit-price-in-pakistan-for-homes-businesses-announced/",
       "keywords": "electricity unit price 2024,k-electric peak hours unit price,electricity unit price in pakistan today,k-electric commercial unit rate,electricity unit price in pakistan today 2024,k-electric unit price 2024,k-electric tariff calculator,pakistan",
@@ -385,7 +385,7 @@
       "sentiment_stats": "positive:82.6,neutral:16.93,negative:0.47"
     },
     {
-      "article_id": "290c4178a20a519db95186a73de66d3e",
+      "id": "290c4178a20a519db95186a73de66d3e",
       "title": "Probe into \u2018monster\u2019 Ryan Geoffrey Cole continues as tributes flow for Mackay murder victim Natalie Frahm",
       "link": "https://7news.com.au/news/probe-into-monster-ryan-geoffrey-cole-continues-as-tributes-flow-for-mackay-murder-victim-natalie-frahm-c-15096609",
       "keywords": null,
@@ -409,7 +409,7 @@
       "sentiment_stats": "positive:2.24,neutral:97.25,negative:0.51"
     },
     {
-      "article_id": "7c560d62946b20ac337aa71176222548",
+      "id": "7c560d62946b20ac337aa71176222548",
       "title": "How to watch Slovakia vs Ukraine for FREE: TV channel and live stream for Euro 2024 game today",
       "link": "https://www.standard.co.uk/sport/football/how-to-watch-slovakia-vs-ukraine-free-tv-channel-live-stream-euro-2024-today-b1165440.html",
       "keywords": "football,sport",
@@ -433,7 +433,7 @@
       "sentiment_stats": "positive:0.61,neutral:99.24,negative:0.16"
     },
     {
-      "article_id": "9b08fefeae29c9ff56d8b67bf0f7978a",
+      "id": "9b08fefeae29c9ff56d8b67bf0f7978a",
       "title": "Navigating through darkness: Ukraine\u2019s emergency blackouts return after Russia pounds infrastructure",
       "link": "https://www.yahoo.com/news/navigating-darkness-ukraine-emergency-blackouts-051952511.html",
       "keywords": null,
@@ -457,7 +457,7 @@
       "sentiment_stats": "positive:0.23,neutral:1.5,negative:98.27"
     },
     {
-      "article_id": "838b44d9ec2819f8209406c61390b6a6",
+      "id": "838b44d9ec2819f8209406c61390b6a6",
       "title": "Why Uluru is the best winter getaway for couples: Aussies are flocking to the Northern Territory on Virgin flights",
       "link": "https://7news.com.au/best-picks/why-uluru-is-the-best-winter-getaway-for-couples-aussies-are-flocking-to-the-northern-territory-on-virgin-flights-c-15095473",
       "keywords": null,
@@ -481,7 +481,7 @@
       "sentiment_stats": "positive:12.01,neutral:87.45,negative:0.54"
     },
     {
-      "article_id": "df878ea664e54380b80e79e12b68fea6",
+      "id": "df878ea664e54380b80e79e12b68fea6",
       "title": "DEE Development IPO: Check day 3 subscription status, latest GMP, should you subscribe, other key details",
       "link": "https://www.livemint.com/market/ipo/dee-development-ipo-check-day-3-subscription-status-latest-gmp-should-you-subscribe-other-key-details-11718946654548.html",
       "keywords": null,
@@ -505,7 +505,7 @@
       "sentiment_stats": "positive:0.15,neutral:99.75,negative:0.1"
     },
     {
-      "article_id": "12a242f0fca6690a3530b5a162e3975b",
+      "id": "12a242f0fca6690a3530b5a162e3975b",
       "title": "Hilarious Overwatch 2 bug has voice line spam reaching new levels",
       "link": "https://www.dexerto.com/overwatch/hilarious-overwatch-2-bug-has-voice-line-spam-reaching-new-levels-2790025/",
       "keywords": "overwatch,gaming",
@@ -529,7 +529,7 @@
       "sentiment_stats": "positive:0.24,neutral:0.54,negative:99.22"
     },
     {
-      "article_id": "f946d012e6f5646a59ee9573418d6053",
+      "id": "f946d012e6f5646a59ee9573418d6053",
       "title": "Post Malone and Blake Shelton Party On With \u2018Pour Me a Drink\u2019: Stream It Now",
       "link": "https://www.billboard.com/music/country/post-malone-blake-shelton-pour-me-a-drink-stream-it-now-1235715067/",
       "keywords": "music,bbnews,country",
@@ -553,7 +553,7 @@
       "sentiment_stats": "positive:1.19,neutral:98.45,negative:0.36"
     },
     {
-      "article_id": "89caf2f71f9375c2877055b7c8b372c2",
+      "id": "89caf2f71f9375c2877055b7c8b372c2",
       "title": "Prince William celebrates 42nd birthday after trip to Germany to see England in Euros",
       "link": "https://www.standard.co.uk/news/uk/prince-william-birthday-kate-middleton-england-euros-football-b1165857.html",
       "keywords": "uk,news",
@@ -577,7 +577,7 @@
       "sentiment_stats": "positive:59.66,neutral:36.66,negative:3.68"
     },
     {
-      "article_id": "5ce21a3cd0a8b84856037e06eca13a81",
+      "id": "5ce21a3cd0a8b84856037e06eca13a81",
       "title": "Kevin Costner confirms he's NOT returning to Yellowstone after network drama and his bitter divorce battle: 'I loved it, and I know you loved it'",
       "link": "https://www.dailymail.co.uk/tvshowbiz/article-13553847/Kevin-Costner-confirms-NOT-returning-Yellowstone-divorce.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
       "keywords": null,
@@ -601,7 +601,7 @@
       "sentiment_stats": "positive:0.65,neutral:1.77,negative:97.58"
     },
     {
-      "article_id": "591b3c34271c0ae7e4eb1e76f4b9cb3a",
+      "id": "591b3c34271c0ae7e4eb1e76f4b9cb3a",
       "title": "'Ideology responsible for Air India terror attack still alive': Indian-origin MP in Canada Parliament",
       "link": "https://timesofindia.indiatimes.com/nri/us-canada-news/ideology-responsible-for-air-india-terror-attack-still-alive-indian-origin-mp-in-canada-parliament/articleshow/111156570.cms",
       "keywords": null,
@@ -625,7 +625,7 @@
       "sentiment_stats": "positive:0.17,neutral:1.6,negative:98.24"
     },
     {
-      "article_id": "86d2e85b944f5469e307c76ca13a6eeb",
+      "id": "86d2e85b944f5469e307c76ca13a6eeb",
       "title": "Corner shops are cool again: 10 new delis with a difference in Melbourne",
       "link": "https://www.smh.com.au/goodfood/melbourne-eating-out/corner-shops-are-cool-again-10-new-delis-with-a-difference-in-melbourne-20240607-p5jk3r.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
       "keywords": "food / eating out (mel)",
@@ -649,7 +649,7 @@
       "sentiment_stats": "positive:84.83,neutral:14.51,negative:0.66"
     },
     {
-      "article_id": "9abb903d9f1009dae8cd449a0caa17c7",
+      "id": "9abb903d9f1009dae8cd449a0caa17c7",
       "title": "UK households with bottles of olive oil in homes issued urgent 'warning'",
       "link": "https://www.dailystar.co.uk/diet-fitness/uk-households-bottles-olive-oil-33076934",
       "keywords": "news",
@@ -673,7 +673,7 @@
       "sentiment_stats": "positive:0.36,neutral:3.91,negative:95.74"
     },
     {
-      "article_id": "a9542d31ee1bfa5ea717e2a7cce2974d",
+      "id": "a9542d31ee1bfa5ea717e2a7cce2974d",
       "title": "WATCH | Suryakumar Yadav-Rashid Khan's engage in playful banter during India vs Afghanistan clash; \u2018stop sweeping me\u2019",
       "link": "https://www.livemint.com/sports/cricket-news/watch-suryakumar-yadav-rashid-khans-playful-banter-during-india-vs-afghanistan-t20-world-cup-clash-stop-sweeping-me-11718937550617.html",
       "keywords": null,
@@ -697,7 +697,7 @@
       "sentiment_stats": "positive:0.69,neutral:66.02,negative:33.29"
     },
     {
-      "article_id": "b4343c417ec144ccea4282b987e0e4e3",
+      "id": "b4343c417ec144ccea4282b987e0e4e3",
       "title": "Who were the two men Jay Slater went drinking with? Why did it take 18 hours to alert his mother? And why did he choose an 11-hour walk over waiting for a bus? The unanswered questions in search for missing Brit teen - as hunt enters day five",
       "link": "https://www.dailymail.co.uk/news/article-13552803/jay-slater-missing-tenerife-unanswered-question-disappeared.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
       "keywords": null,
@@ -721,7 +721,7 @@
       "sentiment_stats": "positive:0.1,neutral:0.12,negative:99.78"
     },
     {
-      "article_id": "daf2277bd1ba3f1db16827f5d83e9738",
+      "id": "daf2277bd1ba3f1db16827f5d83e9738",
       "title": "'Big mistake' for South Korea to arm Ukraine - Putin",
       "link": "https://www.bbc.com/news/articles/c1ee8x221lno",
       "keywords": null,
@@ -745,7 +745,7 @@
       "sentiment_stats": "positive:0.1,neutral:0.09,negative:99.81"
     },
     {
-      "article_id": "dbd9dd2b0b27211fd62690504c3383ea",
+      "id": "dbd9dd2b0b27211fd62690504c3383ea",
       "title": "Tom Brady linked to Brazilian influencer Isabella Settanni who looks just like his ex Gisele Bundchen... (but insider insists its just a rumor)",
       "link": "https://www.dailymail.co.uk/sport/nfl/article-13553807/tom-brady-isabella-settanni-ex-wife-gisele-bundchen.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
       "keywords": null,
@@ -769,7 +769,7 @@
       "sentiment_stats": "positive:0.08,neutral:99.73,negative:0.19"
     },
     {
-      "article_id": "7f7106de6ed5977573997e7001564cd5",
+      "id": "7f7106de6ed5977573997e7001564cd5",
       "title": "International Yoga Day 2024: Jackie Shroff Demonstrates Different Yoga Asanas, Joins Celebration With Fitness Enthusiasts in Mumbai (Watch Video)",
       "link": "https://www.latestly.com/agency-news/entertainment-news-jackie-shroff-performs-yoga-on-10th-international-day-of-yoga-6053266.html",
       "keywords": null,
@@ -793,7 +793,7 @@
       "sentiment_stats": "positive:56.13,neutral:43.26,negative:0.61"
     },
     {
-      "article_id": "019e0bd83fb55478165e5028f44e4c88",
+      "id": "019e0bd83fb55478165e5028f44e4c88",
       "title": "Should young kids have smartphones? These parents in Europe linked arms and said no",
       "link": "https://www.thestar.com/news/world/europe/should-young-kids-have-smartphones-these-parents-in-europe-linked-arms-and-said-no/article_f26998c4-04a1-52a1-b465-ceafd110e728.html",
       "keywords": null,
@@ -817,7 +817,7 @@
       "sentiment_stats": "positive:0.3,neutral:97.66,negative:2.04"
     },
     {
-      "article_id": "716084f0e59e607abc102ddf0537ff54",
+      "id": "716084f0e59e607abc102ddf0537ff54",
       "title": "PM Modi leads international Yoga day celebrations",
       "link": "https://www.news18.com/videos/india/modi-yoga-8939524.html",
       "keywords": "india",
@@ -841,7 +841,7 @@
       "sentiment_stats": "positive:0.68,neutral:99.19,negative:0.13"
     },
     {
-      "article_id": "27f4fbb6a56a6589fb9f059a71fd50af",
+      "id": "27f4fbb6a56a6589fb9f059a71fd50af",
       "title": "10 most expensive homes sold in Union County, June 10-16",
       "link": "https://www.nj.com/realestate-news/2024/06/10-most-expensive-homes-sold-in-union-county-june-10-16.html",
       "keywords": null,
@@ -865,7 +865,7 @@
       "sentiment_stats": "positive:0.62,neutral:99.22,negative:0.16"
     },
     {
-      "article_id": "f9c71187f3dd8a3a7716dd3a83077e17",
+      "id": "f9c71187f3dd8a3a7716dd3a83077e17",
       "title": "Infosys, Indiamart Intermesh among 5 stocks with long buildup",
       "link": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-indiamart-intermesh-among-5-stocks-with-long-buildup/slideshow/111157103.cms",
       "keywords": null,
@@ -889,7 +889,7 @@
       "sentiment_stats": "positive:0.08,neutral:99.83,negative:0.1"
     },
     {
-      "article_id": "8bfd4b63932f2e6dc2c674c506b254d6",
+      "id": "8bfd4b63932f2e6dc2c674c506b254d6",
       "title": "Good News for Noida: New Underpass From Jungle Trail Park to Mahamaya Flyover To Open in 6 Months- Check Cost, Route",
       "link": "https://www.india.com/uttar-pradesh/good-news-for-noida-new-underpass-from-jungle-trail-park-to-mahamaya-flyover-to-open-in-6-months-check-cost-route-7029346/",
       "keywords": "uttar pradesh,noida,mahamaya flyover,noida trail park,traffic advisory,noida underpass",
@@ -913,7 +913,7 @@
       "sentiment_stats": "positive:99.32,neutral:0.46,negative:0.22"
     },
     {
-      "article_id": "ad0c6d27b8f229bf6d3c8191fe7a9f39",
+      "id": "ad0c6d27b8f229bf6d3c8191fe7a9f39",
       "title": "How to watch England vs South Africa: TV channel and live stream for T20 World Cup today",
       "link": "https://www.standard.co.uk/sport/cricket/how-to-watch-england-vs-south-africa-tv-channel-live-stream-t20-world-cup-today-b1165772.html",
       "keywords": "cricket,sport",
@@ -937,7 +937,7 @@
       "sentiment_stats": "positive:0.31,neutral:99.57,negative:0.13"
     },
     {
-      "article_id": "cd608e345dfef11faa1a66072e76d42d",
+      "id": "cd608e345dfef11faa1a66072e76d42d",
       "title": "Business News | Airtel Africa Embarks on Digital Customer Value Management of 150 Million Subscribers with WebEngage",
       "link": "https://www.latestly.com/agency-news/business-news-airtel-africa-embarks-on-digital-customer-value-management-of-150-million-subscribers-with-webengage-6053532.html",
       "keywords": null,
@@ -961,7 +961,7 @@
       "sentiment_stats": "positive:95.69,neutral:4.0,negative:0.31"
     },
     {
-      "article_id": "5420c5425bc8a340643307719bff557f",
+      "id": "5420c5425bc8a340643307719bff557f",
       "title": "Christian activists try Ten Commandments law, emboldened by compromised Supreme Court",
       "link": "https://www.yahoo.com/news/christian-activists-try-ten-commandments-051026208.html",
       "keywords": null,
@@ -985,7 +985,7 @@
       "sentiment_stats": "positive:0.15,neutral:0.11,negative:99.74"
     },
     {
-      "article_id": "8c7906007f1809ceb8a0d63fe7e4af15",
+      "id": "8c7906007f1809ceb8a0d63fe7e4af15",
       "title": "Woman takes boyfriend to tribunal after he fails to take her to the airport",
       "link": "https://www.smh.com.au/world/oceania/woman-takes-boyfriend-to-tribunal-after-he-fails-to-take-her-to-the-airport-20240621-p5jnqw.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "keywords": "world / oceania",
@@ -1009,7 +1009,7 @@
       "sentiment_stats": "positive:0.1,neutral:0.11,negative:99.79"
     },
     {
-      "article_id": "756e79793b6e99d9c6a22f50f5d159f9",
+      "id": "756e79793b6e99d9c6a22f50f5d159f9",
       "title": "Will Kejriwal Walk Out From Jail As ED Moves Delhi HC Challenging His Bail? What We Know So Far",
       "link": "https://www.india.com/news/india/enforcement-directorate-moves-delhi-high-court-challenging-arvind-kejriwal-bail-order-in-excise-policy-case-7029390/",
       "keywords": "india,delhi excise policy case,arvind kejriwal bail,excise policy case",
@@ -1033,7 +1033,7 @@
       "sentiment_stats": "positive:0.13,neutral:0.48,negative:99.39"
     },
     {
-      "article_id": "2474e38af80560e4c9a00622ed7dfa89",
+      "id": "2474e38af80560e4c9a00622ed7dfa89",
       "title": "Watch the moment US swimmer Lilly King gets engaged straight after winning her Olympic qualifier as boyfriend's proposal goes viral",
       "link": "https://www.dailymail.co.uk/sport/olympics/article-13553755/us-swimmer-lilly-king-engaged-olympics.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
       "keywords": null,
@@ -1057,7 +1057,7 @@
       "sentiment_stats": "positive:93.59,neutral:3.9,negative:2.51"
     },
     {
-      "article_id": "63d46de51b9dd929dd707ae924208d55",
+      "id": "63d46de51b9dd929dd707ae924208d55",
       "title": "Stock Market Today: Nifty Hits Fresh Record Peak; Sensex Climbs Over 300 Points in Early Trade",
       "link": "https://www.latestly.com/agency-news/india-news-nifty-hits-fresh-record-peak-sensex-climbs-over-300-points-in-early-trade-6053448.html",
       "keywords": null,
@@ -1081,7 +1081,7 @@
       "sentiment_stats": "positive:86.22,neutral:13.27,negative:0.51"
     },
     {
-      "article_id": "7084fe544fc85b8da9a66a31420ba09a",
+      "id": "7084fe544fc85b8da9a66a31420ba09a",
       "title": "Analysis-Nvidia\u2019s staggering gains leave investors wondering whether to cash in or buy more",
       "link": "https://ca.finance.yahoo.com/news/analysis-nvidia-staggering-gains-leave-050917917.html",
       "keywords": null,
@@ -1105,7 +1105,7 @@
       "sentiment_stats": "positive:2.58,neutral:96.99,negative:0.43"
     },
     {
-      "article_id": "e50be363996a882320c1a84c39ecb21c",
+      "id": "e50be363996a882320c1a84c39ecb21c",
       "title": "Claude 3.5 Sonnet: Anthropic AI Launches Its Most Intelligent Model Yet, Outperforms OpenAI\u2019s GPT-4o, Gemini 1.5 Pro and Llama-400b; Check Details, Where To Access",
       "link": "https://www.latestly.com/socially/technology/claude-3-5-sonnet-anthropic-ai-launches-its-most-intelligent-model-yet-outperforms-openais-gpt-4o-gemini-1-5-pro-and-llama-400b-check-details-where-to-access-6053507.html",
       "keywords": null,
@@ -1129,7 +1129,7 @@
       "sentiment_stats": "positive:0.48,neutral:99.39,negative:0.13"
     },
     {
-      "article_id": "6ae9f1be5be7d809fce4e472cc910680",
+      "id": "6ae9f1be5be7d809fce4e472cc910680",
       "title": "The park a stone\u2019s throw from the city centre perfect to spend a sunny day",
       "link": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/park-stones-throw-city-centre-29393397",
       "keywords": "what's on news",
@@ -1153,7 +1153,7 @@
       "sentiment_stats": "positive:99.28,neutral:0.32,negative:0.4"
     },
     {
-      "article_id": "7a5fe34fea431491fd33f6eee666e7ff",
+      "id": "7a5fe34fea431491fd33f6eee666e7ff",
       "title": "Donald Sutherland, star of MASH and The Hunger Games, dies at 88",
       "link": "https://www.news18.com/videos/entertainment/donald-sutherland-8939519.html",
       "keywords": "entertainment",
@@ -1177,7 +1177,7 @@
       "sentiment_stats": "positive:6.37,neutral:92.87,negative:0.76"
     },
     {
-      "article_id": "520f49ab030322350d4c62963b1685cd",
+      "id": "520f49ab030322350d4c62963b1685cd",
       "title": "PMK will create a historical record in the Vikravandi by-election: Sowmiya Anbumani",
       "link": "https://timesofindia.indiatimes.com/city/chennai/pmk-will-create-a-historical-record-in-the-vikravandi-by-election-sowmiya-anbumani/articleshow/111156937.cms",
       "keywords": null,
@@ -1201,7 +1201,7 @@
       "sentiment_stats": "positive:0.08,neutral:99.84,negative:0.08"
     },
     {
-      "article_id": "c95d235bb8fb63368c45c1cea516b063",
+      "id": "c95d235bb8fb63368c45c1cea516b063",
       "title": "Aussies on the brink of T20 World Cup semi-finals after Pat Cummins\u2019 historic hat-trick",
       "link": "https://7news.com.au/sport/cricket/aussies-on-the-brink-of-t20-world-cup-semi-finals-after-pat-cummins-historic-hat-trick-c-15097490",
       "keywords": null,
@@ -1225,7 +1225,7 @@
       "sentiment_stats": "positive:0.28,neutral:0.27,negative:99.46"
     },
     {
-      "article_id": "8848fde690b12d47496090db2f6a2e30",
+      "id": "8848fde690b12d47496090db2f6a2e30",
       "title": "Grandfather falls ill in Turkey, leaving Brit family with \u00a341,000 bill because he didn't have insurance",
       "link": "https://www.dailystar.co.uk/travel/travel-news/grandfather-falls-ill-turkey-leaving-33076922",
       "keywords": "travel",
@@ -1249,7 +1249,7 @@
       "sentiment_stats": "positive:0.12,neutral:0.18,negative:99.7"
     },
     {
-      "article_id": "5cf56adeeac4b6281adcd5e259af738f",
+      "id": "5cf56adeeac4b6281adcd5e259af738f",
       "title": "New Zealand's gun laws, tightened after the 2019 mosque attack, being revised by an ex-gun lobbyist",
       "link": "https://www.thestar.com/news/world/australia/new-zealands-gun-laws-tightened-after-the-2019-mosque-attack-being-revised-by-an-ex/article_6a808f9d-271d-5cb2-9f4b-7963b07c3f6c.html",
       "keywords": null,
@@ -1273,7 +1273,7 @@
       "sentiment_stats": "positive:0.11,neutral:0.25,negative:99.64"
     },
     {
-      "article_id": "72bd47ef6db99edb22d75dc945370a66",
+      "id": "72bd47ef6db99edb22d75dc945370a66",
       "title": "Flipkart Minutes, 15-Minute Delivery Vertical Entering Market: Reports",
       "link": "https://zeenews.india.com/companies/flipkart-minutes-15-minute-delivery-vertical-entering-market-reports-2759268.html",
       "keywords": null,
@@ -1297,7 +1297,7 @@
       "sentiment_stats": "positive:0.08,neutral:99.86,negative:0.07"
     },
     {
-      "article_id": "c16c72576874765eec91dbc3ad0763a3",
+      "id": "c16c72576874765eec91dbc3ad0763a3",
       "title": "PSX scales to new peaks amid hopes of securing longer IMF deal",
       "link": "https://www.geo.tv/latest/550274-psx-scales-to-new-peaks-amid-hopes-of-securing-longer-imf-deal",
       "keywords": null,
@@ -1321,7 +1321,7 @@
       "sentiment_stats": "positive:98.29,neutral:1.44,negative:0.27"
     },
     {
-      "article_id": "3dc6161f39311a9779fe82bc085e602b",
+      "id": "3dc6161f39311a9779fe82bc085e602b",
       "title": "Serbian football association threatens withdrawal from Euro 2024 over inflammatory chants",
       "link": "https://timesofindia.indiatimes.com/sports/football/uefa-euro-2024/serbian-football-association-threatens-withdrawal-from-euro-2024-over-inflammatory-chants/articleshow/111156694.cms",
       "keywords": null,
@@ -1345,7 +1345,7 @@
       "sentiment_stats": "positive:0.11,neutral:0.08,negative:99.81"
     },
     {
-      "article_id": "845eb3c83b66c9e8b0f6db618221dc93",
+      "id": "845eb3c83b66c9e8b0f6db618221dc93",
       "title": "Exclusive: Arjun Bijlani on celebrating World Music Day, says 'Music for me has always been a stress-reliever, even though I am no professional singer'",
       "link": "https://timesofindia.indiatimes.com/tv/news/hindi/exclusive-arjun-bijlani-on-celebrating-world-music-day-says-music-for-me-has-always-been-a-stress-reliever-even-though-i-am-no-professional-singer/articleshow/111156926.cms",
       "keywords": null,
@@ -1369,7 +1369,7 @@
       "sentiment_stats": "positive:0.22,neutral:99.58,negative:0.2"
     },
     {
-      "article_id": "5330b9ed3612f96568313146a65d4a10",
+      "id": "5330b9ed3612f96568313146a65d4a10",
       "title": "New Zealand\u2019s gun laws, tightened after the 2019 mosque attack, being revised by an ex-gun lobbyist",
       "link": "https://www.seattletimes.com/nation-world/new-zealands-gun-laws-tightened-after-the-2019-mosque-attack-being-revised-by-an-ex-gun-lobbyist/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_nation-world",
       "keywords": "nation & world",
@@ -1393,7 +1393,7 @@
       "sentiment_stats": "positive:0.11,neutral:0.13,negative:99.77"
     },
     {
-      "article_id": "f1c146415bdf2f117ea83b05f319329d",
+      "id": "f1c146415bdf2f117ea83b05f319329d",
       "title": "Accenture secures GenAI orders worth $2 billion in first nine months of FY24",
       "link": "https://www.livemint.com/companies/news/accenture-artificial-intelligence-tcs-wipro-infosys-results-genai-orders-ai-it-companies-11718940792882.html",
       "keywords": null,
@@ -1417,7 +1417,7 @@
       "sentiment_stats": "positive:0.75,neutral:99.1,negative:0.16"
     },
     {
-      "article_id": "a78f68a1ea07844423beb0a447ad176b",
+      "id": "a78f68a1ea07844423beb0a447ad176b",
       "title": "Sania Mirza & Mohammad Shami: Wedding Rumors Debunked by Father",
       "link": "https://enews.hamariweb.com/sports/sania-mirza-mohammad-shami-wedding-rumors-debunked-by-father/",
       "keywords": "mohammed shami new wife,mohammed shami,sania mirza second marriage,mohammed shami wedding,sania mirza mohammed shami,hasin jahan first husband,sania mirza wedding,sania mirza,mohammed shami marriage,sania mirza husband,sports",
@@ -1441,7 +1441,7 @@
       "sentiment_stats": "positive:0.09,neutral:0.18,negative:99.73"
     },
     {
-      "article_id": "1086528fc5d670d34b3dba9a90185c6f",
+      "id": "1086528fc5d670d34b3dba9a90185c6f",
       "title": "Macquarie recommends private banks; upgrades Kotak, City Union Bank, and 2 more; downgrades SBI and 3 others",
       "link": "https://www.livemint.com/market/stock-market-news/macquarie-recommends-private-banks-upgrades-kotak-city-union-bank-and-2-more-downgrades-sbi-and-3-others-11718944101966.html",
       "keywords": null,
@@ -1465,7 +1465,7 @@
       "sentiment_stats": "positive:0.21,neutral:97.92,negative:1.87"
     },
     {
-      "article_id": "561bdece2137669b9412cb0e5ee192d3",
+      "id": "561bdece2137669b9412cb0e5ee192d3",
       "title": "Karachi Passport Office Timing Updates",
       "link": "https://enews.hamariweb.com/pakistan/karachi-passport-office-timing-updates/",
       "keywords": "karachi passport office updates,karachi passport office timing,karachi passport office location,pakistan,passport office timing,passport office timing updates,karachi passport office timing updates",
@@ -1489,7 +1489,7 @@
       "sentiment_stats": "positive:98.1,neutral:1.51,negative:0.39"
     },
     {
-      "article_id": "1bae29d1a5df2186967c72a45b46766c",
+      "id": "1bae29d1a5df2186967c72a45b46766c",
       "title": "Kevin Costner Rules Out \u2018Yellowstone\u2019 Return: \u2018I Loved It and I Know You Loved It\u2019",
       "link": "https://variety.com/2024/tv/news/kevin-costner-not-returning-yellowstone-announces-1236044119/",
       "keywords": "kevin costner,news,yellowstone",
@@ -1513,7 +1513,7 @@
       "sentiment_stats": "positive:1.17,neutral:98.57,negative:0.27"
     },
     {
-      "article_id": "0c402369d1a5da5f0dc54c8ebddffc5a",
+      "id": "0c402369d1a5da5f0dc54c8ebddffc5a",
       "title": "Analysis-Consumer-focused lending under Labour could dent UK bank profits",
       "link": "https://finance.yahoo.com/news/analysis-consumer-focused-lending-under-050521558.html",
       "keywords": null,
@@ -1537,7 +1537,7 @@
       "sentiment_stats": "positive:6.06,neutral:93.63,negative:0.31"
     },
     {
-      "article_id": "63128895f7597af13dd3d5d686f4be6d",
+      "id": "63128895f7597af13dd3d5d686f4be6d",
       "title": "Linda Carol CARLSON",
       "link": "https://www.twincities.com/obituaries/linda-carol-carlson/",
       "keywords": "obituaries,all obituaries",
@@ -1561,7 +1561,7 @@
       "sentiment_stats": "positive:0.06,neutral:99.84,negative:0.1"
     },
     {
-      "article_id": "46b8f3c1096a7649a58c3747d4e7a1e1",
+      "id": "46b8f3c1096a7649a58c3747d4e7a1e1",
       "title": "Julio Miguel ELLIS",
       "link": "https://www.twincities.com/obituaries/julio-miguel-ellis/",
       "keywords": "obituaries,all obituaries",
@@ -1585,7 +1585,7 @@
       "sentiment_stats": "positive:87.3,neutral:11.95,negative:0.75"
     },
     {
-      "article_id": "79a4c6cd036e5b21cadf0627941791f6",
+      "id": "79a4c6cd036e5b21cadf0627941791f6",
       "title": "Michael Joseph LONG",
       "link": "https://www.twincities.com/obituaries/michael-joseph-long/",
       "keywords": "obituaries,all obituaries",
@@ -1609,7 +1609,7 @@
       "sentiment_stats": "positive:64.19,neutral:34.59,negative:1.22"
     },
     {
-      "article_id": "227cb2cf6b491fe29a2c9546fedd31f7",
+      "id": "227cb2cf6b491fe29a2c9546fedd31f7",
       "title": "\u201cSo Much Easier\u201d: Robert Whittaker Eyes Future as Gamer or UFC Analyst Post-Fighting Career",
       "link": "https://thesportsrush.com/ufc-news-so-much-easier-robert-whittaker-eyes-future-as-gamer-or-ufc-analyst-post-fighting-career/",
       "keywords": "daniel cormier,robert whittaker,ikram aliskerov,ufc,israel adesanya,khamzat chimaev",
@@ -1633,7 +1633,7 @@
       "sentiment_stats": "positive:0.36,neutral:99.53,negative:0.11"
     },
     {
-      "article_id": "8a478895eb49a22f4dcbde8013ef2e88",
+      "id": "8a478895eb49a22f4dcbde8013ef2e88",
       "title": "ED moves Delhi High Court challenging bail granted to Arvind Kejriwal in excise policy case",
       "link": "https://www.livemint.com/news/ed-moves-delhi-high-court-challenging-bail-granted-to-arvind-kejriwal-in-excise-policy-case-11718945874734.html",
       "keywords": null,
@@ -1657,7 +1657,7 @@
       "sentiment_stats": "positive:0.05,neutral:99.81,negative:0.14"
     },
     {
-      "article_id": "ef77ba5b93f61ba1d94d2e608b0f4962",
+      "id": "ef77ba5b93f61ba1d94d2e608b0f4962",
       "title": "Lamborghini-driving lawyer battling to become Birmingham's newest MP once joked about 'sparking out' men who go into women's toilets during an exchange about trans and LGBT issues",
       "link": "https://www.dailymail.co.uk/news/article-13552397/Lamborghini-lawyer-Birmingham-MP-men-women-toilets-trans.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
       "keywords": null,
@@ -1681,7 +1681,7 @@
       "sentiment_stats": "positive:0.15,neutral:0.1,negative:99.75"
     },
     {
-      "article_id": "f043eb08856f47cac4649f91882d2d87",
+      "id": "f043eb08856f47cac4649f91882d2d87",
       "title": "Shatrughan Sinha Says 'Khamosh' To All The Rumours, Gives His Blessings To 'Damaad' Zaheer Iqbal",
       "link": "https://www.news18.com/videos/movies/shatrughan-sinha-says-khamosh-to-all-the-rumours-gives-his-blessings-to-damaad-zaheer-iqbal-8939511.html",
       "keywords": "movies",
@@ -1705,7 +1705,7 @@
       "sentiment_stats": "positive:0.2,neutral:97.61,negative:2.19"
     },
     {
-      "article_id": "0e22ff6565ea8296eadc963caf4371bc",
+      "id": "0e22ff6565ea8296eadc963caf4371bc",
       "title": "US supports direct talks between India, Pakistan: State Dept",
       "link": "https://www.geo.tv/latest/550272-us-supports-direct-talks-between-india-pakistan-state-dept",
       "keywords": null,
@@ -1729,7 +1729,7 @@
       "sentiment_stats": "positive:0.12,neutral:99.79,negative:0.09"
     },
     {
-      "article_id": "3201f43ac870f7ced97eafcd9c195d11",
+      "id": "3201f43ac870f7ced97eafcd9c195d11",
       "title": "Ask Amy: After MeToo reflection, should I apologize to my female friend?",
       "link": "https://www.masslive.com/advice/2024/06/ask-amy-after-metoo-reflection-should-i-apologize-to-my-female-friend.html",
       "keywords": null,
@@ -1753,7 +1753,7 @@
       "sentiment_stats": "positive:0.14,neutral:0.44,negative:99.42"
     },
     {
-      "article_id": "8a83787e433594c7e0092f6205dbec50",
+      "id": "8a83787e433594c7e0092f6205dbec50",
       "title": "T20 World Cup 2024 Super 8 Points Table: Australia pip India to top Group 1; England lead Group 2",
       "link": "https://indianexpress.com/article/sports/cricket/t20-world-cup-2024-super-8-points-table-groups-australia-india-bangladesh-9405966/",
       "keywords": "sports,cricket",
@@ -1777,7 +1777,7 @@
       "sentiment_stats": "positive:0.31,neutral:99.54,negative:0.15"
     },
     {
-      "article_id": "b8a497ce062a35a9f264cc2e2f3439b3",
+      "id": "b8a497ce062a35a9f264cc2e2f3439b3",
       "title": "Weariness beside the Salford waters",
       "link": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/salford-5000-voices-voxs-election-29384573",
       "keywords": "greater manchester news",
@@ -1801,7 +1801,7 @@
       "sentiment_stats": "positive:0.15,neutral:0.12,negative:99.73"
     },
     {
-      "article_id": "94f2bc4087e6087dea47a413f9371c31",
+      "id": "94f2bc4087e6087dea47a413f9371c31",
       "title": "Black Market Dollar (USD) To Naira (NGN) Exchange Rate Today 21st June 2024",
       "link": "https://www.naijanews.com/2024/06/21/black-market-dollar-usd-to-naira-ngn-exchange-rate-today-21st-june-2024/",
       "keywords": "dollar to naira black market,naira to dollar,dollar to naira,dollar to naira exchange rates,dollar to naira black market today",
@@ -1825,7 +1825,7 @@
       "sentiment_stats": "positive:0.08,neutral:99.83,negative:0.09"
     },
     {
-      "article_id": "75736a2c45ec2471a2a0b2787c18e6ed",
+      "id": "75736a2c45ec2471a2a0b2787c18e6ed",
       "title": "Coachella Valley loses to Hershey 3-2 in Game 4 of Calder Cup Finals",
       "link": "https://www.seattletimes.com/sports/kraken/coachella-valley-loses-to-hershey-3-2-in-game-4-of-calder-cup-finals/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_all",
       "keywords": "golf, kraken, sports",
@@ -1849,7 +1849,7 @@
       "sentiment_stats": "positive:86.82,neutral:12.09,negative:1.09"
     },
     {
-      "article_id": "28d58b5977f16121d7c054037c2c2fb2",
+      "id": "28d58b5977f16121d7c054037c2c2fb2",
       "title": "How Kate Middleton is dealing with cancer?",
       "link": "https://www.geo.tv/latest/550277-how-kate-middleton-is-dealing-with-cancer",
       "keywords": null,
@@ -1873,7 +1873,7 @@
       "sentiment_stats": "positive:0.09,neutral:99.64,negative:0.27"
     },
     {
-      "article_id": "312898c567e80f4da8b63fad9bf49989",
+      "id": "312898c567e80f4da8b63fad9bf49989",
       "title": "JPMorgan wealth head sees China's economic outlook improving",
       "link": "https://ca.finance.yahoo.com/news/jpmorgan-wealth-head-sees-chinas-050242686.html",
       "keywords": null,
@@ -1897,7 +1897,7 @@
       "sentiment_stats": "positive:98.59,neutral:1.11,negative:0.3"
     },
     {
-      "article_id": "dae87eac0ab893ca0df001ae8842cccd",
+      "id": "dae87eac0ab893ca0df001ae8842cccd",
       "title": "Pat Cummins hat-trick sets up Australia for soggy T20 World Cup win over Bangladesh",
       "link": "https://www.theguardian.com/sport/article/2024/jun/21/australia-vs-bangladesh-t20-world-cup-cricket-results-scores-match-report",
       "keywords": "twenty20,bangladesh cricket team,cricket,t20 world cup,sport,t20 world cup 2024,australia sport,australia cricket team",
@@ -1921,7 +1921,7 @@
       "sentiment_stats": "positive:57.88,neutral:41.12,negative:1.0"
     },
     {
-      "article_id": "688b95e7b0f39f8efe2c8f33319a93d3",
+      "id": "688b95e7b0f39f8efe2c8f33319a93d3",
       "title": "Cal OSHA board passes indoor heat protections for workers",
       "link": "https://abc7.com/post/california-employees-work-hot-indoor-conditions-get-new/14982534/",
       "keywords": "weather,riverside,riverside county,heat exhaustion,business,heat,cal osha",
@@ -1945,7 +1945,7 @@
       "sentiment_stats": "positive:0.1,neutral:99.79,negative:0.11"
     },
     {
-      "article_id": "23f93a864ac992a4d09fd52989332568",
+      "id": "23f93a864ac992a4d09fd52989332568",
       "title": "IMF's roadmap for Europe: Prioritising green investment and market integration",
       "link": "https://www.euronews.com/business/2024/06/21/imfs-roadmap-for-europe-prioritising-green-investment-and-market-integration",
       "keywords": null,
@@ -1969,7 +1969,7 @@
       "sentiment_stats": "positive:2.14,neutral:97.66,negative:0.2"
     },
     {
-      "article_id": "75e341d9c984e10a5c80f4b630bc2f62",
+      "id": "75e341d9c984e10a5c80f4b630bc2f62",
       "title": "Families get a sneak peek at new-look carvery pub with indoor and outdoor play areas as opening date revealed",
       "link": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/families-sneak-peek-new-look-29378692",
       "keywords": "food & drink",
@@ -1993,7 +1993,7 @@
       "sentiment_stats": "positive:98.8,neutral:0.87,negative:0.33"
     },
     {
-      "article_id": "526920fa75a87d85e7866bb9a77c5afc",
+      "id": "526920fa75a87d85e7866bb9a77c5afc",
       "title": "A giant Gruffalo maze is opening this summer 90 minutes from Manchester",
       "link": "https://www.manchestereveningnews.co.uk/whats-on/family-kids-news/giant-gruffalo-maze-opening-summer-29390156",
       "keywords": "family & kids",
@@ -2017,7 +2017,7 @@
       "sentiment_stats": "positive:69.72,neutral:29.08,negative:1.2"
     },
     {
-      "article_id": "ed2d463c7282c327a7c86249f650df81",
+      "id": "ed2d463c7282c327a7c86249f650df81",
       "title": "At Olympic trials, deaf runner Eric Gregory will rely on signals, coach\u2019s prompts to shine in 400",
       "link": "https://sportstar.thehindu.com/athletics/paris-2024-eric-gregory-deaf-runner-400m-olympic-trials-coach-signal-olympics-athlete-news/article68315337.ece",
       "keywords": "athletics",
@@ -2041,7 +2041,7 @@
       "sentiment_stats": "positive:9.96,neutral:68.0,negative:22.04"
     },
     {
-      "article_id": "29d9eb3e17a58ee481e137191298e8d8",
+      "id": "29d9eb3e17a58ee481e137191298e8d8",
       "title": "Watch: MSNBC host spars with guest in heated debate over Trump and Business Roundtable",
       "link": "https://www.rawstory.com/stephanie-ruhle-msnbc/",
       "keywords": null,
@@ -2065,7 +2065,7 @@
       "sentiment_stats": "positive:0.36,neutral:8.83,negative:90.82"
     },
     {
-      "article_id": "d943542b45b198a92ca3e5b79e121c09",
+      "id": "d943542b45b198a92ca3e5b79e121c09",
       "title": "Trump floats green cards for noncitizen college graduates",
       "link": "https://www.yahoo.com/news/trump-floats-green-cards-noncitizen-050127477.html",
       "keywords": null,
@@ -2089,7 +2089,7 @@
       "sentiment_stats": "positive:0.75,neutral:98.78,negative:0.47"
     },
     {
-      "article_id": "8975d1f8a3f2ef832ab12b4e09bd6748",
+      "id": "8975d1f8a3f2ef832ab12b4e09bd6748",
       "title": "When the only escape from war in Gaza is to buy a way out",
       "link": "https://www.smh.com.au/world/middle-east/when-the-only-escape-from-war-in-gaza-is-to-buy-a-way-out-20240621-p5jnpe.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "keywords": "world / middle east",
@@ -2113,7 +2113,7 @@
       "sentiment_stats": "positive:98.97,neutral:0.78,negative:0.25"
     },
     {
-      "article_id": "9274c7d0b801244d57b27660b982eb72",
+      "id": "9274c7d0b801244d57b27660b982eb72",
       "title": "10 most expensive homes sold in Wayne County, June 10-16",
       "link": "https://www.mlive.com/realestate-news/2024/06/10-most-expensive-homes-sold-in-wayne-county-june-10-16.html",
       "keywords": null,

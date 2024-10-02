@@ -5,15 +5,16 @@
         <button
         @click="$router.go(-1)"
         >Back</button>
-        <p class="red">ID: {{ id }}</p>
-        <p class="heading">id: {{ route.params.id }}</p>
+        <p class="heading">id: {{ id }} {{ news.id }}</p>
         <the-thesis 
           :id="news.id"
           :title="news.title"
-         />
-        <the-thesis 
-          :id="news.article_id"
-          :title="news.title"
+          :img="news.image_url"
+          :content="news.content"
+          :pubDate="news.pubDate"
+          :category="news.category"
+          :ai_tag="news.ai_tag"
+          :keywords="news.keywords"
          />
       </div>
     </div>

@@ -1,13 +1,16 @@
 .heading
-   @include font-style($heading, $margin-sm, left, $black)
-
+   @include gradient-text($heading, $gradient-3)
 
 
 .subheading
-   @include font-style($subheading, $margin-sm, left, $black)
+   @include gradient-text($subheading, $gradient-1)
 
+.subheading:hover
+   @include gradient-text($subheading, $gradient-3)
+   
 .body-text
-   @include font-style($body-text, $margin-sm, left, $black)
+   @include gradient-text($body-text, $gradient-2)
+
 
 .body-text-category
    @include font-style(12px, $margin-sm, left, red)
@@ -37,7 +40,7 @@ a:hover
 .colored
    font-size: 70px
    font-weight: 600
-   background-image: linear-gradient(to left, #553c9a, #b393d3)
+   background-image: conic-gradient(#351492, #ee4b2b, #00c2cb)
    color: transparent
    background-clip: text
    -webkit-background-clip: text

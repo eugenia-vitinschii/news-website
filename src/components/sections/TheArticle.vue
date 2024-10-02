@@ -4,12 +4,11 @@
     <div class="article__content">
       <!-- aricle content -->
       <div class="article__title">
-        <p class="colored">
-       {{ articleHeader }}
+        <p class="subheading">
+      0 {{ articleHeader }}
         </p>
       </div>
       <div class="article__text">
-        <router-link :to="'/thesis/' + id" class="red">{{id}}</router-link>
         <router-link :to="'/thesis/' + id">
           <p class="subheading bold">{{ title }}</p>
         </router-link>

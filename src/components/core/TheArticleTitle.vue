@@ -1,8 +1,10 @@
 <template>
   <!-- article header for article item -->
   <div class="article__header">
-      <p class="heading ">{{ articleHeader }}</p>
-   
+    <button
+    class="heading"
+    @click="$emit('openLink()')"
+        >#{{ articleHeader }}</button>
   </div>
 </template>
 
