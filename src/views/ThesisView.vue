@@ -3,18 +3,22 @@
     <div class="container">
       <div class="thesis__wrapper">
         <button
+        class="button-svg"
         @click="$router.go(-1)"
-        >Back</button>
-        <p class="heading">id: {{ id }} {{ news.id }}</p>
+
+        ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></button>
         <the-thesis 
           :id="news.id"
           :title="news.title"
+          :description="news.description"
           :img="news.image_url"
           :content="news.content"
           :pubDate="news.pubDate"
           :category="news.category"
           :ai_tag="news.ai_tag"
           :keywords="news.keywords"
+          :source_icon="news.source_icon"
+          :source_url="news.source_url"
          />
       </div>
     </div>

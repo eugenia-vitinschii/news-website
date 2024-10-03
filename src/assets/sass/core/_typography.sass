@@ -13,17 +13,17 @@
 
 
 .body-text-category
-   @include font-style(12px, $margin-sm, left, red)
+   @include gradient-text(12px, $gradient-3)
 
 @media (max-width: 767px)
    .heading
-      @include font-style($heading-sm, $margin-sm, center, $black)
+      @include gradient-text($heading-sm, $gradient-3)
 
    .subheading
-      @include font-style($subheading-sm, $margin-sm, center,$black)
+      @include gradient-text($subheading-sm, $gradient-3)
 
    .body-text
-      @include font-style($body-text-sm, $margin-sm, center, $black)
+      @include gradient-text($body-text-sm, $gradient-3)
 
 a
    color: $white

@@ -1,15 +1,15 @@
 <template>
-  <!-- Celebrity news view -->
+  <!-- Sport news view -->
   <div class="category">
     <div class="container">
       <div class="category__wrapper">
         <div class="category__settings">
           <button @click="toggleStyle">{{ style }}</button>
         </div>
-        <!-- Celebrity news items -->
+        <!-- Sport news items -->
         <div class="category__items" :class="style">
           <the-category
-            v-for="item in store.getStortsNews"
+            v-for="item in getNewsByCategory('sports')"
             :key="item.id"
             :id="item.id"
             :title="item.title"
@@ -31,6 +31,7 @@ import { defineOptions, onMounted, ref } from "vue";
 import TheCategory from "@/components/sections/TheCategory.vue";
 //pinia
 import { useNewsStore } from "@/stores/news";
+import { storeToRefs } from "pinia";
 
 defineOptions({
   name: "SportView",
@@ -45,6 +46,7 @@ function toggleStyle() {
 
 const store = useNewsStore();
 const { fetchNews } = store;
+const { getNewsByCategory } = storeToRefs(store);
 
 //get news
 onMounted(() => {

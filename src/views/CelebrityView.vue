@@ -11,7 +11,7 @@
         :class="style"
         >
           <the-category
-            v-for="item in store.getCelebrityyNews"
+            v-for="item in getNewsByCategory('celebrity')"
             :key="item.id"
             :id="item.id"
             :title="item.title"
@@ -33,7 +33,7 @@ import { defineOptions, onMounted, ref } from "vue";
 import TheCategory from "@/components/sections/TheCategory.vue";
 //pinia
 import { useNewsStore } from "@/stores/news";
-
+import { storeToRefs } from "pinia";
 
 defineOptions({
   name: "CelebrityView",
@@ -48,7 +48,7 @@ function toggleStyle(){
 
 const store = useNewsStore();
 const { fetchNews } = store;
-
+const { getNewsByCategory } = storeToRefs(store);
 //get news
 onMounted(() => {
   fetchNews();

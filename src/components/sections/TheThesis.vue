@@ -1,19 +1,28 @@
 <template>
   <div class="thesis__item">
     <div class="thesis__title">
-      <p class="heading">Title: {{title}}</p>
+      <p class="heading">{{title}}</p>
     </div>
     <div class="thesis__img">
       <img :src="img" alt="img">
     </div>
     <div class="thesis-text">
+      <p class="subheading">{{ description }}</p>
       <p class="body-text">content: {{ content }}</p>
     </div>
     <div class="thesis__info">
-      <p class="body-text">Publicated: {{ pubDate }}</p>
-      <p class="body-text">category {{ category }}</p>
-      <p class="body-text">ai_tag {{ ai_tag }}</p>
-      <p class="body-text">keywords :{{ keywords }}</p>
+      <p class="body-text"> {{ pubDate }}</p>
+      <p class="body-text">category: {{ category }}</p>
+      <p class="body-text">#{{ ai_tag }}</p>
+      <p class="body-text">keywords: {{ keywords }}</p>
+    </div>
+    <div class="thesis__source">
+      <div class="thesis__source--img">
+              <a :href="source_url">
+        <img :src="source_icon" alt="icon">
+      </a>
+      </div>
+
     </div>
   </div>
 
@@ -33,6 +42,9 @@ defineProps({
   title: {
     type: String,
   },
+  description: {
+    type: String,
+  },
   img: {
     type: String,
   },
@@ -49,6 +61,12 @@ defineProps({
     type: String,
   },
   keywords : {
+    type: String,
+  },
+  source_url: {
+    type: String,
+  },
+  source_icon: {
     type: String,
   },
 });

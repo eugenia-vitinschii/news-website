@@ -11,7 +11,7 @@
         :class="style"
         >
           <the-category
-            v-for="item in store.getTopCategory"
+            v-for="item in store.getTopNews"
             :key="item.id"
             :id="item.id"
             :title="item.title"
