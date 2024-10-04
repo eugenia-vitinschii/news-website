@@ -4,15 +4,18 @@
     <div class="article__content">
       <!-- aricle content -->
       <div class="article__title">
-        <p class="subheading">
-      0 {{ articleHeader }}
+        <p class="body-text yellow">
+      {{ articleHeader }}
         </p>
       </div>
       <div class="article__text">
         <router-link :to="'/thesis/' + id">
           <p class="subheading bold">{{ title }}</p>
         </router-link>
-        <p class="body-text">{{ description }}</p>
+        <div class="article__text--limit">
+          <p class="body-text">{{ description }}</p>
+        </div>
+        
       </div>
     </div>
     <!-- article description -->

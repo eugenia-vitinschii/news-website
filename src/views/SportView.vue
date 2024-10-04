@@ -4,7 +4,11 @@
     <div class="container">
       <div class="category__wrapper">
         <div class="category__settings">
-          <button @click="toggleStyle">{{ style }}</button>
+          <the-view-toggle
+          @toggleStyle="toggleStyle()"
+          :grid="toggle"
+          :list="!toggle"
+          />
         </div>
         <!-- Sport news items -->
         <div class="category__items" :class="style">
@@ -29,6 +33,7 @@ import { defineOptions, onMounted, ref } from "vue";
 
 //components
 import TheCategory from "@/components/sections/TheCategory.vue";
+import TheViewToggle from "@/components/components/TheViewToggle.vue";
 //pinia
 import { useNewsStore } from "@/stores/news";
 import { storeToRefs } from "pinia";
@@ -37,12 +42,16 @@ defineOptions({
   name: "SportView",
 });
 
-//change Style
-let style = ref("list");
+//change Style 
+let style = ref('list');
+let toggle = ref(true)
 
 function toggleStyle() {
-  style.value = style.value === "grid" ? "list" : "grid";
+style.value = style.value === "grid" ? "list" : "grid"
+toggle.value = toggle.value === false ? true : false
 }
+
+
 
 const store = useNewsStore();
 const { fetchNews } = store;
