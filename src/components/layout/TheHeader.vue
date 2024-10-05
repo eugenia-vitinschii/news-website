@@ -6,13 +6,13 @@
         <nav class="header__nav" :class="{ active: showBurger }">
           <ul v-on:click="showBurger = !showBurger">
             <li><router-link class="header__link" to="/">Home</router-link></li>
+            <li><router-link class="header__link" to="/all">All</router-link></li>
             <li><router-link class="header__link" to="/top">Top</router-link></li>
             <li><router-link class="header__link" to="/celebrity">Celebrity</router-link></li>
             <li><router-link class="header__link" to="/sport">Sport</router-link></li>
             <li><router-link class="header__link" to="/politics">Politics</router-link></li>
             <li><router-link class="header__link" to="/television">Television</router-link></li>
             <li><router-link class="header__link" to="/entertainment">Entertainment</router-link></li>
-            <li><router-link class="header__link" to="/celebrity">Linky</router-link></li>
           </ul>
         </nav>
       </div>

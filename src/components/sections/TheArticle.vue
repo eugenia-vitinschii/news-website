@@ -24,6 +24,9 @@
         <div class="article__media--icon">
           <img :src="source_icon" alt="source icon" />
         </div>
+        <div class="article__media--author">
+          <p class="body-text yellow">{{ creator }}</p>
+        </div>
       </div>
       <div class="article__media--tag">
         <p class="body-text">tags: {{ ai_tag }}</p>
@@ -69,6 +72,9 @@ defineProps({
     type: Boolean,
   },
   articleHeader: {
+    type: String,
+  },
+  creator: {
     type: String,
   },
 });
