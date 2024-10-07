@@ -8,6 +8,9 @@ export const useNewsStore = defineStore("newsId", {
     news: [],
   }),
   getters: {
+    getNews(state){
+      return state.news
+    },
     //get news  by ai_tag
     getNewsByCategory: (state) =>{
       return (category) => state.news.filter((item) => item.ai_tag === category)

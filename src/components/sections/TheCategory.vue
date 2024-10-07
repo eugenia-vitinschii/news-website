@@ -11,12 +11,12 @@
         </router-link>
       </div>
       <div class="category__text--description">
-        <p class="body-text">{{ description }}</p>
+        <p class="body-text text-limit">{{ description }}</p>
         <p class="body-text-category">#{{ category }}</p>
       </div>
     </div>
     <!-- img -->
-    <div class="category__img">
+    <div class="category__img grayscale">
       <img :src="img" alt="" />
     </div>
   </div>

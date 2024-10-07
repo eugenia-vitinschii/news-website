@@ -1,4 +1,5 @@
 <template>
+  <!-- thesis item component -->
   <div class="thesis__item">
     <div class="thesis__title">
       <p class="heading">{{title}}</p>

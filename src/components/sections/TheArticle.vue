@@ -10,10 +10,10 @@
       </div>
       <div class="article__text">
         <router-link :to="'/thesis/' + id">
-          <p class="subheading bold">{{ title }}</p>
+          <p class="subheading link">{{ title }}</p>
         </router-link>
         <div class="article__text--limit">
-          <p class="body-text">{{ description }}</p>
+          <p class="body-text text-limit">{{ description }}</p>
         </div>
         
       </div>
@@ -32,7 +32,7 @@
         <p class="body-text">tags: {{ ai_tag }}</p>
         <p class="body-text">{{ keywords }}</p>
       </div>
-      <div class="article__img">
+      <div class="article__img grayscale">
         <img :src="img" alt="" />
       </div>
     </div>

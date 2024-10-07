@@ -7,7 +7,7 @@
            @openLink()="$router.push('celebrity')"
            :articleHeader="'Celebrity'"
          />
-         <div class="article__items" :class="'article--c'">
+         <div class="article__items">
            <the-article
              v-for="item in getNewsByCategory('celebrity')"
              :key="item.id"
@@ -19,6 +19,7 @@
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"
+             :creator="item.creator"
            />
          </div>
        </div>
@@ -32,7 +33,7 @@
            @openLink()="$router.push('sport')"
            :articleHeader="'sport'"
          />
-         <div class="article__items" :class="'article--b'">
+         <div class="article__items">
            <the-article
              v-for="item in getNewsByCategory('sports')"
              :key="item.id"
@@ -44,6 +45,7 @@
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"
+             :creator="item.creator"
            />
          </div>
        </div>
@@ -57,7 +59,7 @@
            @openLink()="$router.push('politics')"
            :articleHeader="'politics'"
          />
-         <div class="article__items" :class="'article--c'">
+         <div class="article__items">
            <the-article
              v-for="item in getNewsByCategory('politics')"
              :key="item.id"
@@ -69,6 +71,7 @@
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"
+             :creator="item.creator"
            />
          </div>
        </div>
@@ -82,7 +85,7 @@
            @openLink()="$router.push('television')"
            :articleHeader="'television'"
          />
-         <div class="article__items" :class="'article--b'">
+         <div class="article__items">
            <the-article
              v-for="item in getNewsByCategory('television')"
              :key="item.id"
@@ -94,6 +97,7 @@
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"
+             :creator="item.creator"
            />
          </div>
        </div>
@@ -107,7 +111,7 @@
            @openLink()="$router.push('cricket')"
            :articleHeader="'cricket'"
          />
-         <div class="article__items" :class="'article--b'">
+         <div class="article__items">
            <the-article
              v-for="item in getNewsByCategory('cricket')"
              :key="item.id"
@@ -119,6 +123,7 @@
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"
+             :creator="item.creator"
            />
          </div>
        </div>
@@ -149,7 +154,7 @@
  
  const { fetchNews } = store;
  
-  
+
  //get news
  onMounted(() => {
    fetchNews()

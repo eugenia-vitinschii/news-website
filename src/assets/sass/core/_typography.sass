@@ -1,16 +1,11 @@
 .heading
    @include gradient-text($heading, $gradient-3)
 
-
 .subheading
    @include gradient-text($subheading, $gradient-1)
 
-.subheading:hover
-   @include gradient-text($subheading, $gradient-3)
-   
 .body-text
    @include gradient-text($body-text, $gradient-2)
-
 
 .body-text-category
    @include gradient-text(12px, $gradient-3)
@@ -24,25 +19,3 @@
 
    .body-text
       @include gradient-text($body-text-sm, $gradient-3)
-
-a
-   color: $white
-
-a:hover
-   text-decoration: underline
-
-.bold
-   font-weight: bold
-
-.red
-   color: red
-.yellow
-   color: $yellow
-
-.colored
-   font-size: 70px
-   font-weight: 600
-   background-image: conic-gradient(#351492, #ee4b2b, #00c2cb)
-   color: transparent
-   background-clip: text
-   -webkit-background-clip: text

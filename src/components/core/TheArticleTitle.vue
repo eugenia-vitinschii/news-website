@@ -4,7 +4,7 @@
     <button
     class="heading"
     @click="$emit('openLink()')"
-        >#{{ articleHeader }}</button>
+    >#{{ articleHeader }}</button>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <!-- Celebrity news view -->
+  <!-- news view -->
   <div class="category">
     <div class="container">
       <div class="category__wrapper">
@@ -10,7 +10,7 @@
           :list="!toggle"
           />
         </div>
-        <!-- Celebrity news items -->
+        <!-- news items -->
         <div class="category__items"
         :class="style"
         >

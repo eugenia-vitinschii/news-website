@@ -1,0 +1,27 @@
+.grayscale
+   @include grayscale()
+
+.grayscale:hover
+   filter: grayscale(0)
+
+.yellow
+   color: $yellow
+
+.text-limit
+   overflow: hidden
+   text-overflow: ellipsis
+   display: -webkit-box
+   -webkit-line-clamp: 5
+   line-clamp: 5
+   -webkit-box-orient: vertical
+
+.grid
+   display: grid
+   grid-template-columns: 2fr 2fr
+   grid-template-rows: 2fr 2fr
+   justify-items: stretch
+   align-items: stretch
+   
+.list
+   display: flex
+   flex-direction: column
