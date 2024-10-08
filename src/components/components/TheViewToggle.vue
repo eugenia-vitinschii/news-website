@@ -1,5 +1,6 @@
 <template>
-  <div class="category__settings--buttons">
+  <div class="category__nav--view">
+    <!-- category__settings--buttons -->
     <button 
     class="button-svg" 
 
@@ -30,7 +31,6 @@
         />
       </svg>
     </button>
- 
   </div>
 </template>
 

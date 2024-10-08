@@ -9,7 +9,7 @@
             <li><router-link class="header__link" to="/all">All</router-link></li>
             <li><router-link class="header__link" to="/top">Top</router-link></li>
             <li><router-link class="header__link" to="/celebrity">Celebrity</router-link></li>
-            <li><router-link class="header__link" to="/sport">Sport</router-link></li>
+            <li><router-link class="header__link" to="/sports">Sport</router-link></li>
             <li><router-link class="header__link" to="/politics">Politics</router-link></li>
             <li><router-link class="header__link" to="/television">Television</router-link></li>
             <li><router-link class="header__link" to="/entertainment">Entertainment</router-link></li>

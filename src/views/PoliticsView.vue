@@ -3,13 +3,15 @@
    <div class="category">
      <div class="container">
        <div class="category__wrapper">
-         <div class="category__settings">
+        <!-- category nav -->
+        <div class="category__nav">
+          <the-category-nav :category="'Politics'" />
           <the-view-toggle
-          @toggleStyle="toggleStyle()"
-          :grid="toggle"
-          :list="!toggle"
+            @toggleStyle="toggleStyle()"
+            :grid="toggle"
+            :list="!toggle"
           />
-         </div>
+        </div>
          <!-- Politics news items -->
          <div class="category__items"
          :class="style"
@@ -22,6 +24,9 @@
              :img="item.image_url"
              :description="item.description"
              :category="item.category"
+                         :ai_tag="item.ai_tag"
+                         :source_url="item.source_url"
+            :source_icon="item.source_icon"
            />
          </div>
        </div>
@@ -34,6 +39,7 @@
  import { defineOptions, onMounted, ref } from "vue";
  
  //components
+ import TheCategoryNav from "@/components/core/TheCategoryNav.vue";
  import TheCategory from "@/components/sections/TheCategory.vue";
  import TheViewToggle from "@/components/components/TheViewToggle.vue";
  //pinia
@@ -45,7 +51,7 @@
  });
  
 //change Style 
-let style = ref('list');
+let style = ref('grid');
 let toggle = ref(true)
 
 function toggleStyle() {

@@ -10,7 +10,15 @@
   background: $dark-gray
   margin: 10px 5px
   padding: 50px 10px 10px 10px
+  border: 1px solid $white
 
 @mixin grayscale()
   filter: grayscale(1)
+  transition: $transition
+
+@mixin source-logo-button()
+  width: 50px
+  border: 1px solid $white
+  background: $blue
+  padding: 5px
   transition: $transition

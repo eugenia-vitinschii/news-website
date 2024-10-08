@@ -1,15 +1,30 @@
 .category
    &__wrapper
+   &__nav
+      display: flex
+      align-items: center
+      justify-content: space-between
+   &__nav--view
+   &__nav--back
+   &__nav--title
+      margin: 0px 20px
    &__items
       width: 100%
    &__item
+      border: 1px solid white
       @include news-item()
       display: flex
       flex-direction: column
+
    &__text
       flex: 1 0 auto
+      margin-bottom: 5px
    &__text--title
    &__text--description
+   &__text--img
+      width: 50px
+      img
+         width: 100%
    &__img
       flex: 0 0 auto
       width: 100%

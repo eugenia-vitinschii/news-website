@@ -31,7 +31,7 @@
     </div>
     <div class="thesis__source">
       <div class="thesis__source--img">
-              <a :href="source_url">
+              <a :href="source_url" target="_blank">
         <img :src="source_icon" alt="icon">
       </a>
       </div>

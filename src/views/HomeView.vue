@@ -12,6 +12,7 @@
              :title="item.title"
              :description="item.description"
              :source_icon="item.source_icon"
+             :source_url="item.source_url"
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"

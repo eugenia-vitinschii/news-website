@@ -13,7 +13,7 @@ export const useNewsStore = defineStore("newsId", {
     },
     //get news  by ai_tag
     getNewsByCategory: (state) =>{
-      return (category) => state.news.filter((item) => item.ai_tag === category)
+      return (tag) => state.news.filter((item) => item.ai_tag === tag)
     },
     getTopNews: (state) =>{
       return state.news.filter((item) => item.category === 'top')

@@ -30,8 +30,8 @@ const router = createRouter({
       component: () => import('../views/CelebrityView.vue')
     },
     {
-      path: '/sport',
-      name: 'sport',
+      path: '/sports',
+      name: 'sports',
       component: () => import('../views/SportView.vue')
     },
     {

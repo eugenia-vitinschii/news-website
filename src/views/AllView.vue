@@ -11,15 +11,17 @@
            <the-article
              v-for="item in getNewsByCategory('celebrity')"
              :key="item.id"
-             :articleHeader="item.category"
+             :category="item.category"
              :id="item.id"
              :title="item.title"
              :description="item.description"
              :source_icon="item.source_icon"
+             :source_url="item.source_url"
              :ai_tag="item.ai_tag"
              :keywords="item.keywords"
              :img="item.image_url"
              :creator="item.creator"
+             :country="item.country"
            />
          </div>
        </div>
@@ -37,7 +39,7 @@
            <the-article
              v-for="item in getNewsByCategory('sports')"
              :key="item.id"
-             :articleHeader="item.category"
+             :category="item.category"
              :id="item.id"
              :title="item.title"
              :description="item.description"
@@ -63,7 +65,7 @@
            <the-article
              v-for="item in getNewsByCategory('politics')"
              :key="item.id"
-             :articleHeader="item.category"
+             :category="item.category"
              :id="item.id"
              :title="item.title"
              :description="item.description"
@@ -89,7 +91,7 @@
            <the-article
              v-for="item in getNewsByCategory('television')"
              :key="item.id"
-             :articleHeader="item.category"
+             :category="item.category"
              :id="item.id"
              :title="item.title"
              :description="item.description"
@@ -115,7 +117,7 @@
            <the-article
              v-for="item in getNewsByCategory('cricket')"
              :key="item.id"
-             :articleHeader="item.category"
+             :category="item.category"
              :id="item.id"
              :title="item.title"
              :description="item.description"
