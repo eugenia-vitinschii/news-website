@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="article__media--tag">
-        <router-link :to="category">
+        <router-link :to="ai_tag">
           <p class="body-text-category">#{{ ai_tag }}</p>
         </router-link>
         <p class="body-text">{{ keywords }}</p>

@@ -13,16 +13,11 @@
       </div>
       <div class="category__text--description">
         <p class="body-text text-limit">{{ description }}</p>
-        <router-link :to="category">
-        <p class="body-text-category">category: #{{ category }}</p>
-        </router-link>
-        <router-link :to="ai_tag">
+        <p class="body-text-category"> {{ category }}</p>
           <p class="body-text-category">
-          #{{ai_tag}}
+          {{ai_tag}}
         </p>
-        </router-link>
-       
-       
+
       </div>
       <div class="category__text--img">
         <a :href="source_url" target="_blank">

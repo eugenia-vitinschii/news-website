@@ -6,10 +6,25 @@ const baseUrl = "http://localhost:3000";
 export const useNewsStore = defineStore("newsId", {
   state: () => ({
     news: [],
+    searchValue: ''
   }),
   getters: {
     getNews(state){
       return state.news
+    },
+    filteredNews: (state) => {
+      //for input
+      if(state.searchValue != '' && state.searchValue ){
+        state.news = state.news.filter((item) => {
+          return item.title
+          .toUpperCase()
+          .includes(state.searchValue.toUpperCase())
+        })
+      }
+      return state.news
+    },
+    sortByPriority: (state) => {
+      return state.news.sort ((a , b)=> a.source_priority > b.source_priority ? 1 : -1)
     },
     //get news  by ai_tag
     getNewsByCategory: (state) =>{
@@ -18,7 +33,6 @@ export const useNewsStore = defineStore("newsId", {
     getTopNews: (state) =>{
       return state.news.filter((item) => item.category === 'top')
     } 
-
   },
   actions: {
     async fetchNews() {

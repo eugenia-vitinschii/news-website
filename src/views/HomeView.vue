@@ -1,51 +1,55 @@
 <template>
-<!-- home view news -->
-  <div class="article">
+  <!-- home view news -->
+  <div class="home">
     <div class="container">
-      <div class="article__wrapper">
-        <div class="article__items">
-          <the-article
-            v-for="item in news"
-            :key="item.id"
-             :articleHeader="item.category"
-             :id="item.id"
-             :title="item.title"
-             :description="item.description"
-             :source_icon="item.source_icon"
-             :source_url="item.source_url"
-             :ai_tag="item.ai_tag"
-             :keywords="item.keywords"
-             :img="item.image_url"
-             :creator="item.creator"
+      <div class="home__wrapper">
+        <!-- filters -->
+        <div class="home__filters">
+          <input 
+          type="text" 
+          id="search-input" 
+          v-model="store.searchValue"
+          placeholder="Search news"
+          >
+          <p class="body-text" v-show="store.searchValue.length > 0">{{ filteredNews.length }} result(s) for "{{ store.searchValue }}""  </p>
+        </div>
+        <div class="home__items">
+          <the-item
+            v-for="item in filteredNews"
+            :key="item.title"
+            :id="item.id"
+            :title="item.title"
+            :description="item.description"
+            :pubDate="item.pubDate"
           />
+
         </div>
       </div>
     </div>
   </div>
-  
 </template>
 
 <script setup>
 //vue
-import { defineOptions, onMounted } from "vue";
-
+import { defineOptions, onMounted,  } from "vue";
+ 
 //pinia
 import { useNewsStore } from "@/stores/news";
+import { storeToRefs } from "pinia";
 
 //import components
-import TheArticle from "@/components/sections/TheArticle.vue";
-import { storeToRefs } from "pinia";
+import TheItem from "@/components/sections/TheItem.vue";
+
 
 defineOptions({
   name: "HomeView",
 });
 
+ 
+
 const store = useNewsStore();
-
-const {news} = storeToRefs(store)
 const { fetchNews } = store;
-
-
+const { filteredNews } = storeToRefs(store);
 //get news
 onMounted(() => {
   fetchNews();

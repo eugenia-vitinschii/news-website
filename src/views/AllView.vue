@@ -110,12 +110,12 @@
      <div class="container">
        <div class="article__wrapper">
          <the-article-title
-           @openLink()="$router.push('cricket')"
-           :articleHeader="'cricket'"
+           @openLink()="$router.push('entertainment')"
+           :articleHeader="'Entertainment'"
          />
          <div class="article__items">
            <the-article
-             v-for="item in getNewsByCategory('cricket')"
+             v-for="item in getNewsByCategory('entertainment')"
              :key="item.id"
              :category="item.category"
              :id="item.id"
