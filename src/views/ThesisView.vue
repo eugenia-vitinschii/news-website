@@ -47,7 +47,10 @@ const id = route.params.id;
 const { news } = storeToRefs(store);
 const { fetchNewsById } = store;
 
-
+// onUnmounted(() => {
+//   console.log("onUnmounted")
+//   store.$reset()
+// }) 
 
 onMounted(() => {
   fetchNewsById(id);

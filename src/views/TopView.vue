@@ -34,7 +34,7 @@
 
 <script setup>
 //vue
-import { defineOptions, onMounted, ref } from "vue";
+import { defineOptions, onMounted, ref, watch } from "vue";
 
 //components
 import TheCategoryNav from "@/components/core/TheCategoryNav.vue";
@@ -58,6 +58,13 @@ function toggleStyle() {
 
 const store = useNewsStore();
 const { fetchNews } = store;
+
+watch(
+  () => store.searchValue,
+  (searchValue) =>{
+    console.log(`Value is : ${searchValue}`)
+  }
+)
 
 //get news
 onMounted(() => {

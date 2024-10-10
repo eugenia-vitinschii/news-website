@@ -1,6 +1,5 @@
 import { defineStore } from "pinia";
 import axios from "axios";
-
 const baseUrl = "http://localhost:3000";
 
 export const useNewsStore = defineStore("newsId", {
@@ -21,7 +20,9 @@ export const useNewsStore = defineStore("newsId", {
           .includes(state.searchValue.toUpperCase())
         })
       }
-      return state.news
+         return state.news
+
+     
     },
     sortByPriority: (state) => {
       return state.news.sort ((a , b)=> a.source_priority > b.source_priority ? 1 : -1)

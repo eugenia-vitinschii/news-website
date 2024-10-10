@@ -12,6 +12,7 @@
     </div>
     <div class="home__info">
       <p class="body-text">{{ pubDate }}</p>
+      <p class="body-text-category">category: {{ category }}</p>
     </div>
   </div>
 </template>
@@ -34,6 +35,9 @@ defineProps({
     type: String,
   },
   pubDate: {
+    type: String,
+  },
+  category: {
     type: String,
   },
 });
