@@ -25,7 +25,7 @@
       <p class="body-text"> {{ pubDate }}</p>
       <p class="body-text">category: {{ category }}</p>
       <p class="body-text">#{{ ai_tag }}</p>
-      <p class="body-text">keywords: {{ keywords }}</p>
+      <p class="body-text"  >keywords: {{ keywords}}</p>
       </div>
 
     </div>
@@ -49,7 +49,6 @@ defineOptions({
 });
 
 defineProps({
-
   id: {
     type: String,
   },
