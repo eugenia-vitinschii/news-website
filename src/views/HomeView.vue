@@ -5,15 +5,17 @@
       <div class="home__wrapper">
         <!-- filters -->
         <div class="home__filters">
-          <input 
-          type="text" 
-          id="search-input" 
-          v-model="searchValue"
-          placeholder="Search news"
-          >
-          <p class="body-text" v-show="searchValue.length > 0">{{ filteredNews.length }} result(s) for "{{ searchValue }}""  </p>
+          <input
+            type="text"
+            id="search-input"
+            v-model="searchValue"
+            placeholder="Search news"
+          />
+          <p class="body-text" v-show="searchValue.length > 0">
+            {{ filteredNews.length }} result(s) for "{{ searchValue }}""
+          </p>
         </div>
-        <div class="home__items">
+        <div class="home__items" v-if="created">
           <the-item
             v-for="item in filteredNews"
             :key="item.title"
@@ -23,7 +25,6 @@
             :pubDate="item.pubDate"
             :category="item.category"
           />
-
         </div>
       </div>
     </div>
@@ -32,8 +33,8 @@
 
 <script setup>
 //vue
-import { defineOptions, onMounted, watch   } from "vue";
- 
+import { defineOptions, onMounted, watch, ref, onUnmounted } from "vue";
+
 //pinia
 import { useNewsStore } from "@/stores/news";
 import { storeToRefs } from "pinia";
@@ -48,15 +49,27 @@ defineOptions({
 const store = useNewsStore();
 const { fetchNews } = store;
 const { filteredNews } = storeToRefs(store);
-const { searchValue }= storeToRefs(store);
+const { searchValue } = storeToRefs(store);
 
-watch( searchValue, () => {
-  fetchNews();
-  })
+let created = ref(false);
 
-//get news
-onMounted(() => {
+watch(searchValue, () => {
   fetchNews();
 });
 
+onUnmounted(() => {
+  console.log(created.value, "clean news, onUnmounted");
+  store.$reset();
+});
+
+//get news
+onMounted(() => {
+  created.value = true;
+  console.log(created.value, "get news, unMounted");
+  fetchNews();
+});
+
+// onUnmounted(() =>{
+//   console.log(created.value, 'onUnmounted')
+// })
 </script>

@@ -22,3 +22,13 @@
   background: $blue
   padding: 5px
   transition: $transition
+
+@mixin img-container($height)
+  height: $height
+  min-width: 100%
+  overflow: hidden
+
+@mixin the-img()
+  width: 100%
+  object-fit: contain
+  object-position: center center

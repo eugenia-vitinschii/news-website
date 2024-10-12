@@ -13,8 +13,10 @@
           />
         </div>
         <!-- Celebrity news items -->
-        <div class="category__items"
-        :class="style"
+        <div 
+        class="category__items" 
+        :class="style" 
+        v-if="created"
         >
           <the-category
             v-for="item in getNewsByCategory('celebrity')"
@@ -41,7 +43,7 @@ import { defineOptions, onMounted, ref } from "vue";
 //components
 import TheCategoryNav from "@/components/core/TheCategoryNav.vue";
 import TheCategory from "@/components/sections/TheCategory.vue";
-import TheViewToggle from "@/components/components/TheViewToggle.vue"
+import TheViewToggle from "@/components/components/TheViewToggle.vue";
 //pinia
 import { useNewsStore } from "@/stores/news";
 import { storeToRefs } from "pinia";
@@ -50,24 +52,25 @@ defineOptions({
   name: "CelebrityView",
 });
 
-//change Style 
-let style = ref('grid');
-let toggle = ref(true)
+//change Style
+let style = ref("grid");
+let toggle = ref(true);
 
 function toggleStyle() {
-style.value = style.value === "grid" ? "list" : "grid"
-toggle.value = toggle.value === false ? true : false
+  style.value = style.value === "grid" ? "list" : "grid";
+  toggle.value = toggle.value === false ? true : false;
 }
-
 
 const store = useNewsStore();
 const { fetchNews } = store;
 const { getNewsByCategory } = storeToRefs(store);
+
+let created = ref(false);
 //get news
 onMounted(() => {
+  created.value = true;
   fetchNews();
 });
+
 </script>
 
-<style>
-</style>

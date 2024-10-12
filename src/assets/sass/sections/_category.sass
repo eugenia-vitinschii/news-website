@@ -15,7 +15,6 @@
       @include news-item()
       display: flex
       flex-direction: column
-
    &__text
       flex: 1 0 auto
       margin-bottom: 5px
@@ -25,8 +24,11 @@
       @include source-logo-button()
       img
          width: 100%
+   &__text--img:hover
+      background: $yellow
+
    &__img
       flex: 0 0 auto
-      width: 100%
+      @include img-container(300px)
       img
-         width: 100%
+         @include the-img()

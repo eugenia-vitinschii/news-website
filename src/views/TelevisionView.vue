@@ -12,7 +12,11 @@
           />
         </div>
         <!-- Television news items -->
-        <div class="category__items" :class="style">
+        <div 
+        class="category__items" 
+        :class="style"
+        v-if="created"
+        >
           <the-category
             v-for="item in getNewsByCategory('television')"
             :key="item.id"
@@ -60,8 +64,10 @@ const store = useNewsStore();
 const { fetchNews } = store;
 const { getNewsByCategory } = storeToRefs(store);
 
+let created = ref(false);
 //get news
 onMounted(() => {
+  created.value = true;
   fetchNews();
 });
 </script>

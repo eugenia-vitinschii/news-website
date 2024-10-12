@@ -15,6 +15,7 @@
          <!-- Politics news items -->
          <div class="category__items"
          :class="style"
+          v-if="created"
          >
            <the-category
              v-for="item in getNewsByCategory('politics')"
@@ -63,8 +64,11 @@ toggle.value = toggle.value === false ? true : false
  const store = useNewsStore();
  const { fetchNews } = store;
  const { getNewsByCategory } = storeToRefs(store);
- //get news
- onMounted(() => {
+ 
+ let created = ref(false);
+//get news
+onMounted(() => {
+  created.value = true;
    fetchNews();
  });
  </script>

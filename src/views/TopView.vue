@@ -13,7 +13,11 @@
           />
         </div>
         <!-- news items -->
-        <div class="category__items" :class="style">
+        <div 
+        class="category__items" 
+        :class="style"
+        v-if="created"
+        >
           <the-category
             v-for="item in store.getTopNews"
             :key="item.id"
@@ -65,9 +69,11 @@ watch(
     console.log(`Value is : ${searchValue}`)
   }
 )
-
+let created = ref(false);
 //get news
 onMounted(() => {
+  created.value = true
+  console.log(created.value, 'top news, unMounted')
   fetchNews();
 });
 </script>

@@ -13,7 +13,11 @@
           />
         </div>
         <!-- Sport news items -->
-        <div class="category__items" :class="style">
+        <div 
+        class="category__items" 
+        :class="style"
+        v-if="created"
+        >
           <the-category
             v-for="item in getNewsByCategory('sports')"
             :key="item.id"
@@ -22,7 +26,7 @@
             :img="item.image_url"
             :description="item.description"
             :category="item.category"
-                        :source_url="item.source_url"
+            :source_url="item.source_url"
             :source_icon="item.source_icon"
           />
         </div>
@@ -62,8 +66,10 @@ const store = useNewsStore();
 const { fetchNews } = store;
 const { getNewsByCategory } = storeToRefs(store);
 
+let created = ref(false);
 //get news
 onMounted(() => {
+  created.value = true;
   fetchNews();
 });
 </script>

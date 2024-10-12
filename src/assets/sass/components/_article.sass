@@ -25,9 +25,9 @@
    &__media--author
    &__media--tag
    &__img
-      min-width: 100%
+      @include img-container(200px)
       img
-         width: 100%
+         @include the-img()
 
 //pc rules
 @media (max-width: 1024px)

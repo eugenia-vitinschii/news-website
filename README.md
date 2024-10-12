@@ -6,8 +6,8 @@ $\color{#00bcd4}{\textsf{responsive news website}}$
 ![SASS](https://img.shields.io/badge/SASS-00bcd4?style=flat&logo=sass&logoColor=fff)
 ![HTML](https://img.shields.io/badge/HTML%205-00bcd4?style=flat&logo=html5&logoColor=fff)
  
-News website short about:
-*  Pinia store 
+### News website short about:
+*  Pinia store  (fetchNews(), sortNews(),  ...)
 *  Axios
 *  db.json data
 *  News search (HomeView)
@@ -20,17 +20,26 @@ News website short about:
 *  sass grid ( for all app)
 
 
+# Folders
 
 src
    - assets
       - sass
          - abstracts
+            - _all.sass
+            - _mixin.sass
+            - _variables.sass
          - components
+            - _....sass
          - core
+            - _....sass
          - layout
+            - _....sass
          - pages
+            - _home.sass
          - sections
-         app.sass
+            - _....sass
+         - app.sass
    - components
       - components
          - ...
@@ -38,7 +47,7 @@ src
          - TheArticleTitle.vue
          - ...
       - layout
-         - TheHeaderr.vue
+         - TheHeader.vue
          - TheFooter.vue
       - sections
          - TheItem.vue

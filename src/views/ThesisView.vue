@@ -27,7 +27,7 @@
 
 <script setup>
 //vue
-import { defineOptions, onMounted } from "vue";
+import { defineOptions, onMounted, onUnmounted } from "vue";
 //components
 import TheThesis from "@/components/sections/TheThesis.vue";
 
@@ -47,10 +47,11 @@ const id = route.params.id;
 const { news } = storeToRefs(store);
 const { fetchNewsById } = store;
 
-// onUnmounted(() => {
-//   console.log("onUnmounted")
-//   store.$reset()
-// }) 
+onUnmounted(() => {
+  console.log('clean thesis, onUnmounted')
+  store.$reset()
+}) 
+
 
 onMounted(() => {
   fetchNewsById(id);

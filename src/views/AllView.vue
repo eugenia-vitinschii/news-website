@@ -1,4 +1,7 @@
 <template>
+  <div class="all" v-if="created">
+
+  
    <!-- Celebrityy News -->
    <div class="article">
      <div class="container">
@@ -131,11 +134,12 @@
        </div>
      </div>
    </div>
+  </div>
  </template>
  
  <script setup>
  //vue
- import { defineOptions, onMounted } from "vue";
+ import { defineOptions, onMounted, ref } from "vue";
  
  //pinia
  import { useNewsStore } from "@/stores/news";
@@ -156,9 +160,16 @@
  
  const { fetchNews } = store;
  
+ let created = ref(false);
 
+//  onUnmounted(() => {
+//   console.log('clean all, onUnmounted')
+//   store.$reset()
+// }) 
  //get news
  onMounted(() => {
+  created.value = true
+  console.log(created.value, 'get all,  onMounted')
    fetchNews()
  });
  </script>

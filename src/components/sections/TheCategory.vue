@@ -13,11 +13,10 @@
       </div>
       <div class="category__text--description">
         <p class="body-text text-limit">{{ description }}</p>
-        <p class="body-text-category"> {{ category }}</p>
-          <p class="body-text-category">
-          {{ai_tag}}
+        <p class="body-text-category">{{ category }}</p>
+        <p class="body-text-category">
+          {{ ai_tag }}
         </p>
-
       </div>
       <div class="category__text--img">
         <a :href="source_url" target="_blank">
@@ -42,6 +41,7 @@ defineOptions({
 defineProps({
   id: {
     type: String,
+    
   },
   title: {
     type: String,
