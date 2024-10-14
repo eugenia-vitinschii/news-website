@@ -26,7 +26,8 @@
     </div>
     <!--category img div-->
     <div class="category__img grayscale">
-      <img :src="img" alt="" />
+      <img :src="img" v-if="img"/>
+      <img src="@/assets/img/news.jpg" v-else>
     </div>
   </div>
 </template>
@@ -48,6 +49,7 @@ defineProps({
   },
   img: {
     type: String,
+    // default: require("@/assets/default-poster.png")
   },
   description: {
     type: String,

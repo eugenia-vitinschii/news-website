@@ -37,7 +37,7 @@
  
  <script setup>
  //vue
- import { defineOptions, onMounted, ref } from "vue";
+ import { defineOptions, onMounted, ref, onUnmounted } from "vue";
  
  //components
  import TheCategoryNav from "@/components/core/TheCategoryNav.vue";
@@ -65,12 +65,20 @@ toggle.value = toggle.value === false ? true : false
  const { fetchNews } = store;
  const { getNewsByCategory } = storeToRefs(store);
  
+
+
  let created = ref(false);
 //get news
 onMounted(() => {
   created.value = true;
    fetchNews();
  });
+
+
+ onUnmounted(() => {
+  console.log(created.value, "clean news, onUnmounted");
+  store.$reset();
+});
  </script>
  
  <style>

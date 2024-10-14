@@ -5,7 +5,8 @@
       <p class="heading">{{title}}</p>
     </div>
     <div class="thesis__img">
-      <img :src="img" alt="img">
+      <img :src="img" v-if="img"/>
+      <img src="@/assets/img/news.jpg" v-else>
     </div>
     <div class="thesis-text">
       <p class="subheading">{{ description }}</p>

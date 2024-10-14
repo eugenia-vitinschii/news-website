@@ -20,11 +20,15 @@
             v-for="item in filteredNews"
             :key="item.title"
             :id="item.id"
+            :img="item.image_url"
             :title="item.title"
             :description="item.description"
             :pubDate="item.pubDate"
             :category="item.category"
           />
+        </div>
+        <div class="home__button" v-if="store.complected">
+           <button class="read-more" @click="loadMore()">Read more</button>
         </div>
       </div>
     </div>
@@ -47,10 +51,11 @@ defineOptions({
 });
 
 const store = useNewsStore();
-const { fetchNews } = store;
+const { fetchNews, loadMore } = store;
 const { filteredNews } = storeToRefs(store);
 const { searchValue } = storeToRefs(store);
 
+ 
 let created = ref(false);
 
 watch(searchValue, () => {
@@ -66,7 +71,7 @@ onUnmounted(() => {
 onMounted(() => {
   created.value = true;
   console.log(created.value, "get news, unMounted");
-  fetchNews();
+  loadMore();
 });
 
 // onUnmounted(() =>{

@@ -10,6 +10,7 @@ $\color{#00bcd4}{\textsf{responsive news website}}$
 *  Pinia store  (fetchNews(), sortNews(),  ...)
 *  Axios
 *  db.json data
+*  Load More Pagination
 *  News search (HomeView)
 *  Sort news by category ( exlude HomeView)
 *  change list to grid style for items views ( Category views)

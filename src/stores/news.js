@@ -5,7 +5,10 @@ const baseUrl = "http://localhost:3000";
 export const useNewsStore = defineStore("newsId", {
   state: () => ({
     news: [],
-    searchValue: ''
+    searchValue: '',
+    limit: 10,
+    page: 1,
+    complected: true
   }),
   getters: {
     getNews(state){
@@ -21,8 +24,6 @@ export const useNewsStore = defineStore("newsId", {
         })
       }
          return state.news
-
-     
     },
     sortByPriority: (state) => {
       return state.news.sort ((a , b)=> a.source_priority > b.source_priority ? 1 : -1)
@@ -42,7 +43,21 @@ export const useNewsStore = defineStore("newsId", {
         const response = await axios.get(`${baseUrl}/news`);
         this.news = response.data;
       } catch (error) {
-        console.err("Get products error:", error);
+        console.err("fetchNews news error:", error);
+      }
+    },
+    async loadMore() {
+      // read more news from db.json
+      this.page++
+      console.log(this.page)
+      try {
+        const response = await axios.get(`${baseUrl}/news?_page=${this.page}&_limit=${this.limit}`);
+        this.news.push(...response.data);
+        if(response.data.length < this.limit){
+         this.complected = false
+        }
+      } catch (error) {
+        console.error("loadMore news error:", error);
       }
     },
     async fetchNewsById(id) {
@@ -51,7 +66,7 @@ export const useNewsStore = defineStore("newsId", {
         const response = await axios.get(`${baseUrl}/news/${id}`);
         this.news = response.data;
       } catch (error) {
-        console.error("Get product error:", error);
+        console.error("fetchNewsById(id) error:", error);
       }
     },
   },

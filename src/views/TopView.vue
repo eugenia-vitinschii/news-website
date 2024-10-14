@@ -38,7 +38,7 @@
 
 <script setup>
 //vue
-import { defineOptions, onMounted, ref, watch } from "vue";
+import { defineOptions, onMounted, ref, watch, onUnmounted } from "vue";
 
 //components
 import TheCategoryNav from "@/components/core/TheCategoryNav.vue";
@@ -76,6 +76,13 @@ onMounted(() => {
   console.log(created.value, 'top news, unMounted')
   fetchNews();
 });
+
+
+onUnmounted(() => {
+  console.log(created.value, "clean news, onUnmounted");
+  store.$reset();
+});
+
 </script>
 
 <style>

@@ -32,7 +32,8 @@
         <p class="body-text-category">{{ country }}</p>
       </div>
       <div class="article__img grayscale">
-        <img :src="img" alt="img" />
+        <img :src="img" v-if="img"/>
+        <img src="@/assets/img/news.jpg" v-else>
       </div>
     </div>
   </div>

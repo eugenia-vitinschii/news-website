@@ -1,24 +1,24 @@
 .heading
-   @include gradient-text($heading, $gradient-3)
+   @include gradient-text($heading, $gradient-3, 60px)
 
 .subheading
-   @include gradient-text($subheading, $gradient-1)
+   @include gradient-text($subheading, $gradient-1, 30px)
 
 .body-text
-   @include gradient-text($body-text, $gradient-2)
+   @include gradient-text($body-text, $gradient-2, 20px)
 
 .body-text-category
-   @include gradient-text(12px, $gradient-3)
+   @include gradient-text(12px, $gradient-3, 20px)
 
 @media (max-width: 767px)
    .heading
-      @include gradient-text($heading-sm, $gradient-3)
+      @include gradient-text($heading-sm, $gradient-3, 50px)
 
    .subheading
-      @include gradient-text($subheading-sm, $gradient-3)
+      @include gradient-text($subheading-sm, $gradient-3, 20px)
 
    .body-text
-      @include gradient-text($body-text-sm, $gradient-3)
+      @include gradient-text($body-text-sm, $gradient-3, 16px)
 
 .link
    transition: $transition

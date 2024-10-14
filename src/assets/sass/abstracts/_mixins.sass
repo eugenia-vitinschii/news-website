@@ -1,6 +1,7 @@
-@mixin  gradient-text($font-size,  $gradient)
+@mixin  gradient-text($font-size,  $gradient, $line-height)
   font-size: $font-size
   font-weight: 600
+  line-height: $line-height
   background: $gradient
   color: transparent
   background-clip: text
@@ -23,12 +24,14 @@
   padding: 5px
   transition: $transition
 
-@mixin img-container($height)
+@mixin img-container($height, $width)
   height: $height
-  min-width: 100%
+  min-width: $width
   overflow: hidden
 
 @mixin the-img()
+  background: #000
   width: 100%
+  border: 1px solid $white
   object-fit: contain
   object-position: center center

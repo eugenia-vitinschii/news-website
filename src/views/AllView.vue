@@ -139,7 +139,7 @@
  
  <script setup>
  //vue
- import { defineOptions, onMounted, ref } from "vue";
+ import { defineOptions, onMounted, ref, onUnmounted } from "vue";
  
  //pinia
  import { useNewsStore } from "@/stores/news";
@@ -162,10 +162,10 @@
  
  let created = ref(false);
 
-//  onUnmounted(() => {
-//   console.log('clean all, onUnmounted')
-//   store.$reset()
-// }) 
+ onUnmounted(() => {
+  console.log('clean all, onUnmounted')
+  store.$reset()
+}) 
  //get news
  onMounted(() => {
   created.value = true

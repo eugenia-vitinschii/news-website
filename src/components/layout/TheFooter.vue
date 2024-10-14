@@ -6,7 +6,7 @@
          <!-- footer content -->
         <div class="footer__content">
           <the-article-title
-            @openLink()="$router.push('celebrity')"
+            @openLink()="$router.push('/celebrity')"
             :articleHeader="'celebrity'"
           />
           <the-article-title
