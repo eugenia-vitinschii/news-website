@@ -14,7 +14,7 @@
       </button>
     </div>
     <div class="category__nav--title">
-      <p class="heading">{{ category }}</p>
+      <p class="heading-category">{{ category }}</p>
     </div>
 </template>
 

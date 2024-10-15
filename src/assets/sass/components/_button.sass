@@ -1,10 +1,9 @@
 button
    transition: $transition
-   border: 1px solid $gray
+   border: $border-gray
 
 .button-svg
-   background: $gray
-   border: 1px solid  $gray
+   background: $dark-gray
    svg
       fill: $yellow
 
@@ -12,10 +11,21 @@ button
    svg
       fill: $blue
 
+.button-heading
+   @include font-style($heading, 60px, $white)
+   @include  gradient-text($gradient-2)
+   font-weight: bold
+
+@media (max-width: 767px)
+   .button-heading
+      @include font-style($heading-sm, 30px, $white)
+
 .read-more
    color: $white
-   background: $gradient-3
-   font-size: $heading
+   background: $gradient-2
+   font-size: $heading-sm
+   border-radius: $border-radius
+   border: $border
 
 .read-more:hover
-   background: $gradient-2
+   background: $gradient-3

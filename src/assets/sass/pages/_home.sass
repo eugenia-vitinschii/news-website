@@ -14,7 +14,9 @@
    &__img
       grid-area: 1 / 1 / 2 / 2
       img
-        @include the-img()
+         @include the-img()
+      img:hover
+         border: $border-gray
    &__text
       margin: 0px 0px 0px 20px
       grid-area: 1 / 2 / 2 / 3
@@ -22,3 +24,12 @@
       grid-area: 2 / 1 / 3 / 3
    &__button
       text-align: center
+
+@media (max-width: 767px)
+   .home
+      &__item
+         display: flex
+         flex-direction: column
+      &__text
+         margin: 0px 0px 0px 0px
+

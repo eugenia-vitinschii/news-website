@@ -6,7 +6,7 @@ export const useNewsStore = defineStore("newsId", {
   state: () => ({
     news: [],
     searchValue: '',
-    limit: 10,
+    limit: 5,
     page: 1,
     complected: true
   }),

@@ -5,25 +5,21 @@
       <!-- aricle content -->
       <div class="article__title">
         <router-link :to="'/thesis/' + id">
-          <p class="subheading link">{{ title }}</p>
+          <p class="subheading">{{ title }}</p>
         </router-link>
       </div>
       <div class="article__text">
-        <p class="body-text text-limit"> {{ description }}...</p>
+        <p class="body-text text-limit">{{ description }}...</p>
       </div>
     </div>
     <!-- article description -->
     <div class="article__description">
       <div class="article__media">
-        <div class="article__media--icon">
-          <a :href="source_url" target="_blank">
-            <img :src="source_icon" alt="source icon" />
-          </a>
-        </div>
         <div class="article__media--author">
           <p class="body-text-category">{{ creator }}</p>
         </div>
-      </div>
+      
+
       <div class="article__media--tag">
         <router-link :to="ai_tag">
           <p class="body-text-category">#{{ ai_tag }}</p>
@@ -31,9 +27,16 @@
         <p class="body-text">{{ keywords }}</p>
         <p class="body-text-category">{{ country }}</p>
       </div>
+
+      <div class="article__media--icon">
+        <a :href="source_url" target="_blank">
+          <img :src="source_icon" alt="source icon" />
+        </a>
+      </div>
+      </div>
       <div class="article__img grayscale">
-        <img :src="img" v-if="img"/>
-        <img src="@/assets/img/news.jpg" v-else>
+        <img :src="img" v-if="img" />
+        <img src="@/assets/img/news.jpg" v-else />
       </div>
     </div>
   </div>
@@ -73,7 +76,7 @@ defineProps({
   },
   img: {
     type: String,
-},
+  },
   top: {
     type: Boolean,
   },

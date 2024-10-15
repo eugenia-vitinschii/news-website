@@ -17,10 +17,12 @@
       flex: 0 0 auto
    &__media
    &__media--icon
-      @include source-logo-button()
+      width: 60px
+      height: 60px
       img
+         @include source-logo-button()
          width: 100%
-   &__media--icon:hover
+   &__media--icon img:hover
       background: $yellow
    &__media--author
    &__media--tag
@@ -28,6 +30,8 @@
       @include img-container(200px, 100%)
       img
          @include the-img()
+      img:hover
+        border: $border-gray
 
 //pc rules
 @media (max-width: 1024px)

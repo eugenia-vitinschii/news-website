@@ -11,7 +11,7 @@
    &__items
       width: 100%
    &__item
-      border: 1px solid white
+      border:  $border 
       @include news-item()
       display: flex
       flex-direction: column
@@ -19,16 +19,22 @@
       flex: 1 0 auto
       margin-bottom: 5px
    &__text--title
+      p::first-line 
+         @include gradient-text($gradient-3)
    &__text--description
    &__text--img
-      @include source-logo-button()
+      width: 60px
+      height: 60px
       img
+         @include source-logo-button()
          width: 100%
-   &__text--img:hover
+   &__text--img img:hover
       background: $yellow
 
    &__img
       flex: 0 0 auto
-       @include img-container(200px, 100%)
+      @include img-container(300px, 100%)
       img
          @include the-img()
+      img:hover
+         border: $border-gray

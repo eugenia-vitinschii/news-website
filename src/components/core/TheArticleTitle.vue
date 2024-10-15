@@ -2,7 +2,7 @@
   <!-- article header for article item -->
   <div class="article__header">
     <button
-    class="heading"
+    class="button-heading"
     @click="$emit('openLink()')"
     >#{{ articleHeader }}</button>
   </div>

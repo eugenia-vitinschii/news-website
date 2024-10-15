@@ -2,19 +2,25 @@
    &__wrapper
    &__item
       @include news-item()
+
    &__title
    &__img
-      width: 100%
+      @include img-container(100%, 100%)
       img
-         width: 100%
+         @include the-img()
+      img:hover
+        border: $border-gray
    &__info
    &__source
 
    &__source--img
-      @include source-logo-button()
+      width: 60px
+      height: 60px
       img
+         @include source-logo-button()
          width: 100%
-   &__source--img:hover
+   &__source--img img:hover
       background: $yellow
+
 
  
