@@ -1,6 +1,30 @@
 {
   "news": [
     {
+      "id": "someifd",
+      "title": "test",
+      "link": "https://dailyprogress.com/online/4-bedroom-home-in-charlottesville---575-000/article_265873c2-a714-50c2-95d2-824aae27e73d.html",
+      "keywords": null,
+      "creator": null,
+      "video_url": null,
+      "description": "OPEN SUNDAY 6/23 1 TO 3:30PM. Welcome home to this beautiful renovated home in desirable Hollymead community in Albemarle County. Just minutes from NGIC, Hollymead Towne Center, schools and UVA. Remodeled kitchen features granite countertops, painted gray cabinets, spacious pantry...",
+      "content": "OPEN SUNDAY 6/23 1 TO 3:30PM. Welcome home to this beautiful renovated home in desirable Hollymead community in Albemarle County. Just minutes from NGIC, Hollymead Towne Center, schools and UVA. Remodeled kitchen features granite countertops, painted gray cabinets, spacious pantry and spice rack, breakfast bar and stainless steel appliances. Large family room with fireplace, home office (or dining room) with pocket doors, sunroom overlooking landscaped yard and detached 2 car garage with carport; Upper level features spacious primary bedroom, luxury bath and fantastic walk-in closet; 2 additional bedrooms and full renovated bath and laundry; terrace level is finished with family room with fireplace and built-in shelving, additional bedroom and full bath. Outside features include fantastic wraparound porch and screened porch to enjoy nature and relax. Walk to schools and community pool. View More Get local news delivered to your inbox!",
+      "pubDate": "2024-06-21 05:30:00",
+      "image_url": "",
+      "source_id": "dailyprogress",
+      "source_priority": 9706,
+      "source_url": "https://dailyprogress.com",
+      "source_icon": "https://i.bytvi.com/domain_icons/dailyprogress.png",
+      "language": "english",
+      "country": "united states of america",
+      "category": "",
+      "ai_tag": "",
+      "ai_region": "albemarle county,virginia,united states of america,north america,charlottesville,virginia,united states of america,north america,hollymead,virginia,united states of america,north america",
+      "ai_org": "ngic",
+      "sentiment": "positive",
+      "sentiment_stats": "positive:97.76,neutral:1.83,negative:0.41"
+    },
+    {
       "id": "someid",
       "title": "-4 Bedroom Home in CHARLOTTESVILLE - $575,000",
       "link": "https://dailyprogress.com/online/4-bedroom-home-in-charlottesville---575-000/article_265873c2-a714-50c2-95d2-824aae27e73d.html",

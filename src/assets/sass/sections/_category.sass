@@ -15,12 +15,14 @@
       @include news-item()
       display: flex
       flex-direction: column
+   &__item:hover
+      background: $hover-gray
    &__text
       flex: 1 0 auto
       margin-bottom: 5px
    &__text--title
-      p::first-line 
-         @include gradient-text($gradient-3)
+      height: 150px
+      overflow: hidden
    &__text--description
    &__text--img
       width: 60px
@@ -38,3 +40,14 @@
          @include the-img()
       img:hover
          border: $border-gray
+
+@media (max-width:583px)
+   .category
+      &__text--title
+         height: 200px
+@media (max-width:428px)
+   .category
+      &__text--title
+         height: 130px
+      &__nav--view
+         display: none

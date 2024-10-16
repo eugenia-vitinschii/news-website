@@ -2,7 +2,8 @@
    &__wrapper
    &__item
       @include news-item()
-
+   &__item:hover
+      background: $hover-gray
    &__title
    &__img
       @include img-container(100%, 100%)
@@ -11,6 +12,11 @@
       img:hover
         border: $border-gray
    &__info
+      margin-bottom: 5px
+      button
+         margin-left: 12px
+         background: transparent
+         border: $gray
    &__source
 
    &__source--img

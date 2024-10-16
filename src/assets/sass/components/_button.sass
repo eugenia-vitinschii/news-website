@@ -11,6 +11,20 @@ button
    svg
       fill: $blue
 
+.show-more
+   background: $dark-gray
+   svg
+      fill: $yellow
+
+.show-more:hover
+   svg
+      fill: $blue
+
+.show-more.active
+   transform: rotate(-180deg)
+
+
+
 .button-heading
    @include font-style($heading, 60px, $white)
    @include  gradient-text($gradient-2)

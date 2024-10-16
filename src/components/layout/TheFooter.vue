@@ -5,22 +5,16 @@
       <div class="footer__wrapper">
          <!-- footer content -->
         <div class="footer__content">
-          <the-article-title
-            @openLink()="$router.push('/celebrity')"
-            :articleHeader="'celebrity'"
-          />
-          <the-article-title
-            @openLink()="$router.push('sports')"
-            :articleHeader="'sports'"
-          />
-          <the-article-title
-            @openLink()="$router.push('television')"
-            :articleHeader="'television'"
-          />
-          <the-article-title
-            @openLink()="$router.push('top')"
-            :articleHeader="'top'"
-          />
+          <ul>
+            <li><router-link class="header__link" to="/">Home</router-link></li>
+            <li><router-link class="header__link" to="/all">All</router-link></li>
+            <li><router-link class="header__link" to="/top">Top</router-link></li>
+            <li><router-link class="header__link" to="/celebrity">Celebrity</router-link></li>
+            <li><router-link class="header__link" to="/sports">Sport</router-link></li>
+            <li><router-link class="header__link" to="/politics">Politics</router-link></li>
+            <li><router-link class="header__link" to="/television">Television</router-link></li>
+            <li><router-link class="header__link" to="/entertainment">Entertainment</router-link></li>
+          </ul>
         </div>
         <!-- footer information -->
         <div class="footer__info">
@@ -36,7 +30,7 @@
 
 <script setup>
 import { defineOptions } from "vue";
-import TheArticleTitle from "../core/TheArticleTitle.vue";
+
 defineOptions({
   name: "TheFooter",
 });

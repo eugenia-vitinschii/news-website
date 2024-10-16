@@ -25,6 +25,8 @@
             :description="item.description"
             :pubDate="item.pubDate"
             :category="item.category"
+            :ai_tag="item.ai_tag"
+            :keywords="item.keywords"
           />
         </div>
         <div class="home__button" v-if="store.complected">

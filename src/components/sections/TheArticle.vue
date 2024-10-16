@@ -24,8 +24,6 @@
         <router-link :to="ai_tag">
           <p class="body-text-category">#{{ ai_tag }}</p>
         </router-link>
-        <p class="body-text">{{ keywords }}</p>
-        <p class="body-text-category">{{ country }}</p>
       </div>
 
       <div class="article__media--icon">

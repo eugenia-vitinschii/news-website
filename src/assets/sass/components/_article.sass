@@ -3,6 +3,8 @@
    &__header
       margin:0px  4px
    &__title
+      height: 150px
+      overflow: hidden
    &__items
       display: grid
       grid-template-columns: repeat(3, 1fr)
@@ -10,6 +12,8 @@
       @include news-item()
       display: flex
       flex-direction: column
+   &__item:hover
+      background: $hover-gray
    &__content
       flex: 1 0 auto
    &__text
@@ -38,9 +42,24 @@
    .article
       &__items
          grid-template-columns: repeat(2, 1fr)
+      &__img
+         @include img-container(300px, 100%)
 
 //mobile devices rules
 @media (max-width: 767px)
    .article
       &__items
          grid-template-columns: repeat(1, 1fr)
+      &__img
+         @include img-container(400px, 100%)
+//mobile devices rules
+@media (max-width: 467px)
+   .article
+      &__img
+         @include img-container(300px, 100%)
+
+//mobile devices rules
+@media (max-width: 330px)
+   .article
+      &__img
+         @include img-container(200px, 100%)

@@ -49,6 +49,7 @@ defineProps({
   },
   img: {
     type: String,
+    default: '',
     // default: require("@/assets/default-poster.png")
   },
   description: {
