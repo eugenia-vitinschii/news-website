@@ -1,5 +1,5 @@
 <template>
-
+<!-- category nav  go-back & category name-->
     <div class="category__nav--back">
       <button class="button-svg" @click="$router.go(-1)">
         <svg
@@ -14,7 +14,7 @@
       </button>
     </div>
     <div class="category__nav--title">
-      <p class="heading-category">{{ category }}</p>
+      <h1 class="heading-category">{{ category }}</h1>
     </div>
 </template>
 

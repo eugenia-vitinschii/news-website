@@ -5,7 +5,7 @@
       <!-- aricle content -->
       <div class="article__title">
         <router-link :to="'/thesis/' + id">
-          <p class="subheading">{{ title }}</p>
+          <p class="subheading link">{{ title }}</p>
         </router-link>
       </div>
       <div class="article__text">

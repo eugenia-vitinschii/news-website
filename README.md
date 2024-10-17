@@ -7,18 +7,22 @@ $\color{#00bcd4}{\textsf{responsive news website}}$
 ![HTML](https://img.shields.io/badge/HTML%205-00bcd4?style=flat&logo=html5&logoColor=fff)
  
 ### News website short about:
+*  <meta > description, keywords, theme-color...
 *  Pinia store  (fetchNews(), sortNews(),  ...)
 *  Axios
-*  db.json data
-*  Load More Pagination
-*  News search (HomeView)
-*  Sort news by category ( exlude HomeView)
+*  db.json news
+*  load more news
+*  show more information ( for news item)
+*  news search (HomeView)
+*  filter news by category ( exlude HomeView)
 *  change list to grid style for items views ( Category views)
 *  router-link to view by category in item ( All views)
-*  sass folders structure ( mixins, variables, )
+*  responsive web design 
+*  sass folder structure ( reset, mixins, variables, )
 *  sass style for text limit ( for all item news component)
 *  sass style for hover a tags ( for all app)
-*  sass grid ( for all app)
+*  sass grid, flex
+*  @media for font-size, content
 
 
 # Folders

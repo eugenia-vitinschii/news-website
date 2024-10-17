@@ -30,7 +30,7 @@
           />
         </div>
         <div class="home__button" v-if="store.complected">
-           <button class="read-more" @click="loadMore()">Read more</button>
+           <button class="read-more" @click="loadMore()">read more</button>
         </div>
       </div>
     </div>

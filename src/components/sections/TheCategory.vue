@@ -18,12 +18,12 @@
           {{ ai_tag }}
         </p>
       </div>
-      <div class="category__text--img">
+    </div>
+    <div class="category__text--img">
         <a :href="source_url" target="_blank">
           <img :src="source_icon" alt="icon" />
         </a>
       </div>
-    </div>
     <!--category img div-->
     <div class="category__img grayscale">
       <img :src="img" v-if="img"/>
