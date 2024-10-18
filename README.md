@@ -1,5 +1,8 @@
 $\color{#00bcd4}{\textsf{responsive news website}}$
 
+watch the video at the link
+https://youtu.be/UEiQlzM4z2M
+
 ![PINIA](https://img.shields.io/badge/PINIA-00bcd4?style=flat&logo=vuedotjs&logoColor=fff)
 ![VUE](https://img.shields.io/badge/Vue%20JS%203-00bcd4?style=flat&logo=vuedotjs&logoColor=fff)
 ![Axios](https://img.shields.io/badge/axios-00bcd4?style=flat&logo=axios&logoColor=fff)
